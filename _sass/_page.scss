@@ -1,6 +1,16 @@
-﻿.wrapper {
+﻿html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+}
+
+.wrapper {
 	overflow: hidden;
-	margin: 0 auto;
+	margin: 0 auto 50px;
 	background: #fff;
 
     img {

@@ -3,7 +3,8 @@ $(document).ready(function(){
     mode: 'fade',
     captions: true,
     pager: false,
-    auto: true
+    auto: true,
+    pause: 5000
   });
 
   $('#raptor').raptorize({
