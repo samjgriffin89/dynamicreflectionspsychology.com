@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $('#bxslider').bxSlider({
-    captions: true
+    captions: true,
+    pager: false
   });
 
   $('#raptor').raptorize({
