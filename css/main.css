@@ -420,7 +420,16 @@ table {
 .bx-wrapper {
   border: 0 !important;
   bottom: 16px; }
+  .bx-wrapper ul {
+    margin: 0;
+    padding: 0; }
   .bx-wrapper img {
     height: 553px; }
+
+.homepage-content h3, .homepage-content p {
+  text-align: center; }
+.homepage-content h3 {
+  color: #005253;
+  font-size: 3em; }
 
 /*# sourceMappingURL=main.css.map */
