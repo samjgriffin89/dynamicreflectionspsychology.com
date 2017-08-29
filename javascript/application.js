@@ -1,5 +1,8 @@
 $(document).ready(function(){
-  $('#bxslider').bxSlider();
+  $('#bxslider').bxSlider({
+    captions: true
+  });
+
   $('#raptor').raptorize({
 		'enterOn' : 'konami-code'
 	});

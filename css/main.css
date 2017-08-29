@@ -348,7 +348,7 @@ table {
 .alternate-header {
   background: rgba(227, 227, 227, 0.5); }
   .alternate-header h1 a, .alternate-header .navigation ul li a {
-    color: #082567; }
+    color: #005253; }
   .alternate-header .navigation ul li a:hover {
     color: #fff; }
 
@@ -380,7 +380,7 @@ table {
       border: 2px solid transparent;
       transition: color 0.3s ease; }
       .navigation li a:hover {
-        color: #082567; }
+        color: #005253; }
     @media (min-width: 768px) {
       .navigation li {
         padding: 7px 14px; }
@@ -420,5 +420,7 @@ table {
 .bx-wrapper {
   border: 0 !important;
   bottom: 16px; }
+  .bx-wrapper img {
+    height: 553px; }
 
 /*# sourceMappingURL=main.css.map */
