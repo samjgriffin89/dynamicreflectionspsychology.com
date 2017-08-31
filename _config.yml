@@ -7,6 +7,7 @@ description: > #
 
 google_analytics_id: 
 google_site_verification: 
+google_maps_api_key: AIzaSyC4DHSne1itZ1-MkC6PMDZwWvxeHgFttQc
 
 # Build settings
 markdown: kramdown

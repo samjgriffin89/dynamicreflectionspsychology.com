@@ -453,6 +453,14 @@ table {
     margin: 25px;
     font-style: italic; }
 
+.contact-content {
+  text-align: center; }
+
+.contact-map {
+  height: 400px;
+  width: 50%;
+  margin: 0 auto; }
+
 .homepage-content h3, .homepage-content p {
   text-align: center; }
 .homepage-content h3 {
