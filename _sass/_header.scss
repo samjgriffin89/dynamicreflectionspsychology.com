@@ -12,6 +12,10 @@
         a {
             color: #fff;
             transition: color 0.3s ease;
+
+            &:hover {
+				cursor: pointer;
+			}
         }
 	}
 
@@ -72,7 +76,8 @@
 			transition: color 0.3s ease;
 
 			&:hover {
-				color: $primaryColor;
+				color: #000;
+				cursor: pointer;
 			}
 		}
 

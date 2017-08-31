@@ -1,5 +1,5 @@
 ﻿.footer {
-    height: 65px;
+    height: 120px;
     width: 96%;
     padding: 10px 2%;
     overflow: hidden;
@@ -13,13 +13,13 @@
 	}
 
 	h1 {
-		margin: 5px 0 0;
-	}
+        @extend .left;
 
-	h2 {
-		font-size: 12px;
-		margin-top: 0;
-		text-transform: uppercase;
+		margin-top: 40px;
+
+        a { 
+            color: #fff;
+        }
 	}
 
     li a { 
@@ -29,5 +29,15 @@
         &:hover {
             color: #000;
         }
+    }
+
+    .navigation {
+        margin-top: 45px;
+    }
+    
+    .footer-contact {
+        position: absolute;
+        left: 35%;
+        text-align: center;
     }
 }

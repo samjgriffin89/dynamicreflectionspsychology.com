@@ -6,11 +6,13 @@ title: About Julie
 	<h2>Contact Julie</h2>
 </div>
 <section class="contact-content">
-	<p>To reach Dandelion Psychology, call Dr. Beth Peters at 303-704-3612. You may leave a confidential voicemail at this number.</p>
+	<p>To reach Dandelion Psychology, call Dr. Beth Peters at {{ site.phone_number }}. You may leave a confidential voicemail at this number.</p>
 	<p>Dandelion Psychology, LLC is located in the Arbor Building at the following address:</p>
-	<p><strong>7850 Vance Dr. Suite 185, Arvada, CO 80003</strong></p>
+	<p><strong>{{ site.address }}</strong></p>
 
-	<div id="map" class="contact-map"></div>
+	<div style="height:100%; width:100%;">
+		<div id="map" class="contact-map"></div>
+	</div>
 
 	<p>If you wish to reach us by efax, the number is 1-512-597-2829</p>
 </section>

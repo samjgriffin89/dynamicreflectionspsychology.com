@@ -309,7 +309,7 @@ table {
   background-color: #337ab7;
   border-color: #2e6da4; }
 
-.left {
+.left, .footer h1 {
   float: left; }
 
 .main-content .error-page {
@@ -344,6 +344,8 @@ table {
     .header h1 a {
       color: #fff;
       transition: color 0.3s ease; }
+      .header h1 a:hover {
+        cursor: pointer; }
   @media (min-width: 768px) {
     .header hgroup {
       float: left; } }
@@ -383,7 +385,8 @@ table {
       border: 2px solid transparent;
       transition: color 0.3s ease; }
       .navigation li a:hover {
-        color: #005253; }
+        color: #000;
+        cursor: pointer; }
     @media (min-width: 768px) {
       .navigation li {
         padding: 7px 14px; }
@@ -391,7 +394,7 @@ table {
           font-size: 20px; } }
 
 .footer {
-  height: 65px;
+  height: 120px;
   width: 96%;
   padding: 10px 2%;
   overflow: hidden;
@@ -402,16 +405,20 @@ table {
   .footer hgroup {
     float: left; }
   .footer h1 {
-    margin: 5px 0 0; }
-  .footer h2 {
-    font-size: 12px;
-    margin-top: 0;
-    text-transform: uppercase; }
+    margin-top: 40px; }
+    .footer h1 a {
+      color: #fff; }
   .footer li a {
     color: #fff;
     transition: color 0.3s ease; }
     .footer li a:hover {
       color: #000; }
+  .footer .navigation {
+    margin-top: 45px; }
+  .footer .footer-contact {
+    position: absolute;
+    left: 35%;
+    text-align: center; }
 
 .wrapper {
   overflow: hidden;
@@ -458,7 +465,7 @@ table {
 
 .contact-map {
   height: 400px;
-  width: 50%;
+  width: 700px;
   margin: 0 auto; }
 
 .homepage-content h3, .homepage-content p {

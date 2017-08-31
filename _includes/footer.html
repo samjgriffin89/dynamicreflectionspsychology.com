@@ -1,3 +1,11 @@
 <footer class="footer">
+	<h1>
+      <a href="/">{{ site.title }}</a>
+    </h1>
+	<section class="footer-contact">
+		<p>Phone: {{ site.phone_number }}</p>
+		<p>Email: {{ site.email }}</p>
+		<p>{{ site.address }}</p>
+	</section>
 	{% include navigation.html %}
-</footer>
+</footer>	
