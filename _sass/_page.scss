@@ -1,14 +1,4 @@
-﻿html {
-    overflow: hidden;
-    height: 100%;
-}
-
-body {
-    height: 100%;
-    overflow: auto;
-}
-
-.wrapper {
+﻿.wrapper {
 	overflow: hidden;
 	margin: 0 auto 50px;
 	background: #fff;
@@ -29,5 +19,39 @@ body {
 
 	img {
 		height: 553px;
+	}
+}
+
+.page-title-wrapper {
+	padding: 70px 0 30px;
+	text-align: center;
+	font-size: 3em;
+	background: $primaryColor;
+	color: #fff;
+
+	h2 {
+		margin: 0;
+	}
+}
+
+.about-content {
+	margin: 35px 50px 0;
+
+	img {
+		width: 30%;
+		margin-right: 25px;
+		margin-bottom: 5px;
+	}
+
+	ul {
+		margin-left: 25px;
+	}
+
+	q {
+		display: block;
+		position: relative;
+		left: 25px;
+		margin: 25px;
+		font-style: italic;
 	}
 }
