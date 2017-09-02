@@ -1,5 +1,5 @@
 ﻿.footer {
-    height: 120px;
+    height: 150px;
     width: 96%;
     padding: 10px 2%;
     overflow: hidden;
@@ -13,14 +13,12 @@
 	}
 
 	h1 {
-        @extend .left;
-
-		margin-top: 40px;
-
-        a { 
-            color: #fff;
-        }
+        display: none;
 	}
+
+    @include bp(tablet) {
+        
+    }
 
     li a { 
         color: #fff; 
@@ -32,12 +30,36 @@
     }
 
     .navigation {
-        margin-top: 45px;
+        text-align: center;
     }
-    
+
+
     .footer-contact {
         position: absolute;
-        left: 35%;
+        left: 8%;
+        top: 40px;
         text-align: center;
+    }
+
+    @include bp(tablet) {
+        h1 {
+            display: block;
+            float: left;
+            margin-top: 55px;
+
+            a { 
+                color: #fff;
+            }
+        }
+
+        .navigation {
+            margin-top: 60px;
+            text-align: initial;
+        }
+
+        .footer-contact {
+            left: 35%;
+            top: 25px;
+        }
     }
 }

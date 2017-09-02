@@ -18,12 +18,20 @@
 	}
 
 	img {
-		height: 553px;
+		width: auto;
+		max-width: max-content !important;
+		height: 250px;
+	}
+
+	@include bp(tablet) {
+		img {
+			height: 553px;
+		}
 	}
 }
 
 .page-title-wrapper {
-	padding: 70px 0 30px;
+	padding: 100px 0 30px;
 	text-align: center;
 	font-size: 3em;
 	background: $primaryColor;
@@ -32,27 +40,37 @@
 	h2 {
 		margin: 0;
 	}
+
+	@include bp(tablet) {
+		padding: 70px 0 30px;
+	}
 }
 
 .about-content {
-	margin: 35px 50px 0;
+	margin: 35px 20px 0;
 
-	img {
-		width: 30%;
-		margin-right: 25px;
-		margin-bottom: 5px;
+	@include bp(tablet) {
+		margin: 35px 50px 0;
 	}
 
-	ul {
-		margin-left: 25px;
+	img {
+		margin-right: 25px;
+		margin-bottom: 5px;
+
+		@include bp(tablet) {
+			width: 30%;
+		}
 	}
 
 	q {
 		display: block;
-		position: relative;
-		left: 25px;
 		margin: 25px;
 		font-style: italic;
+
+		@include bp(tablet) {
+			position: relative;
+			left: 25px;
+		}
 	}
 }
 
@@ -61,7 +79,12 @@
 }
 
 .contact-map {
-	height: 400px;
-	width: 700px;
+	height: 200px;
+	width: 300px;
 	margin: 0 auto;
+
+	@include bp(tablet) {
+		height: 400px;
+		width: 700px;
+	}
 }
