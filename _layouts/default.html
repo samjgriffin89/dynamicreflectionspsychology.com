@@ -18,4 +18,31 @@
 
 <script src="{{ site.base_url }}/javascript/jquery.bxslider.min.js"></script>
 <script src="{{ site.base_url }}/javascript/raptor/jquery.raptorize.2.0.js"></script>
-<script src="{{ site.base_url }}/javascript/application.js"></script>
+<script>
+  $(document).ready(function(){
+  $('#bxslider').bxSlider({
+    mode: 'fade',
+    captions: true,
+    pager: false,
+    auto: true,
+    pause: 5000
+  });
+
+  $('#raptor').raptorize({
+    'enterOn' : 'konami-code'
+  });
+
+  // If a user scrolls below the absolute top, then update the header
+  $(window).scroll(function () {
+    var $header = $("#header");
+
+    if ($header.offset().top == 0) {
+      $header.removeClass("alternate-header");
+    }
+    else if (!$header.hasClass("alternate-header"))
+    {
+      $header.addClass("alternate-header");
+    }
+  });
+});
+</script>
