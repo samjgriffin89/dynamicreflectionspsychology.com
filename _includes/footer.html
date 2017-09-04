@@ -4,7 +4,7 @@
     </h1>
 	<section class="footer-contact">
 		<p>Phone: {{ site.phone_number }}</p>
-		<p>Email: {{ site.email }}</p>
+		<p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 		<p>{{ site.address }}</p>
 	</section>
 	{% include navigation.html %}
