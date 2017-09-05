@@ -6,6 +6,10 @@
     img {
         width: 100%;
     }
+
+    p, li {
+    	line-height: 1.5;
+    }
 }
 
 .bx-wrapper {
@@ -71,6 +75,20 @@
 			position: relative;
 			left: 25px;
 		}
+	}
+
+	.publications a {
+		display: block;
+		margin: 10px 0;
+		color: $primaryColor;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.about-me-img {
+		margin-bottom: 25px;		
 	}
 }
 
