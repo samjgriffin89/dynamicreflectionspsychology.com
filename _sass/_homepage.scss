@@ -11,7 +11,10 @@
 	}
 
 	p {
-		width: 50%;
 		margin: 0 auto;
+
+		@include bp(tablet) {
+			width: 50%;
+		}
 	}
 }
