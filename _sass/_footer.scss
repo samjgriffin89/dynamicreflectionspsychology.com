@@ -1,5 +1,8 @@
-﻿.footer {
+﻿.footer, .push {
     height: 150px;
+}
+
+.footer {
     width: 96%;
     padding: 10px 2%;
     overflow: hidden;
@@ -29,18 +32,19 @@
     }
 
     .navigation {
+        width: 100%;
+        margin: 0;
         text-align: center;
     }
 
 
     .footer-contact {
-        position: absolute;
-        left: 12%;
-        top: 40px;
+        width: 100%;
+        margin: 0 auto 0;
         text-align: center;
     }
 
-    @include bp(tablet) {
+    @include bp(laptop) {
         h1 {
             display: block;
             float: left;
@@ -52,13 +56,14 @@
         }
 
         .navigation {
+            width: auto;
             margin-top: 60px;
             text-align: initial;
         }
 
         .footer-contact {
-            left: 39%;
-            top: 25px;
+            width: 50%;
+            margin-top: 25px;
         }
     }
 }
