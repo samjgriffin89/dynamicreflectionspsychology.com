@@ -15,6 +15,7 @@
 </html>
 
 <script src="{{ site.base_url }}/javascript/jquery.bxslider.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 <script>
   $(document).ready(function(){
   $('#bxslider').bxSlider({
@@ -23,10 +24,6 @@
     pager: false,
     auto: true,
     pause: 5000
-  });
-
-  $('#raptor').raptorize({
-    'enterOn' : 'konami-code'
   });
 
   // If a user scrolls below the absolute top, then update the header
