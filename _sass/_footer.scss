@@ -1,26 +1,15 @@
-﻿.footer, .push {
-    height: 150px;
-}
+﻿.footer {
+    color: #000;
+    background: #e3f2fd;
+    flex-shrink: none;
 
-.footer {
-    width: 96%;
-    padding: 10px 2%;
-    overflow: hidden;
-    position: relative;
-    z-index: 10;
-    color: #fff;
-    background: $primaryColor;
-
-    hgroup {
-		float: left;
-	}
-
-	h1 {
-        display: none;
-	}
+    p { 
+        margin: 0;
+        line-height: 2;
+    }
     
     li a, a { 
-        color: #fff;
+        color: #000;
     }
     
     li a { 
@@ -28,42 +17,6 @@
 
         &:hover {
             color: #000;
-        }
-    }
-
-    .navigation {
-        width: 100%;
-        margin: 0;
-        text-align: center;
-    }
-
-
-    .footer-contact {
-        width: 100%;
-        margin: 0 auto 0;
-        text-align: center;
-    }
-
-    @include bp(laptop) {
-        h1 {
-            display: block;
-            float: left;
-            margin-top: 55px;
-
-            a { 
-                color: #fff;
-            }
-        }
-
-        .navigation {
-            width: auto;
-            margin-top: 60px;
-            text-align: initial;
-        }
-
-        .footer-contact {
-            width: 50%;
-            margin-top: 25px;
         }
     }
 }
