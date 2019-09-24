@@ -1,21 +1,22 @@
 ﻿html, body {
   height: 100%;
   margin: 0;
-}
 
-.wrapper {
-	min-height: 100%;
-	overflow: hidden;
-	margin: 0 auto -150px;
-	background: #fff;
-
-    img {
+  img {
         width: 100%;
     }
 
     p, li {
     	line-height: 1.5;
     }
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.page-content {
+	flex: 1 0 auto;
 }
 
 .bx-wrapper {

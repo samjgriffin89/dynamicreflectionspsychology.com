@@ -1,41 +1,16 @@
 {% include top.html %}
-  <body>
-    <div id="wrapper" class="wrapper">
+  <body class="d-flex flex-column h-100">
+    <div id="wrapper" class="page-content container-fluid">
       
-      {% include header.html %}
+      {% include navigation.html %}
 
       <section class="main-content">
       	{{ content }}
       </section>
-      <div class="push"></div>
     </div>
 	  {% include footer.html %}
     {% include analytics.html %}
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
-
-<script src="{{ site.base_url }}/javascript/jquery.bxslider.min.js"></script>
-<script>
-  $(document).ready(function(){
-  $('#bxslider').bxSlider({
-    mode: 'fade',
-    captions: true,
-    pager: false,
-    auto: true,
-    pause: 5000
-  });
-
-  // If a user scrolls below the absolute top, then update the header
-  $(window).scroll(function () {
-    var $header = $("#header");
-
-    if ($header.offset().top == 0) {
-      $header.removeClass("alternate-header");
-    }
-    else if (!$header.hasClass("alternate-header"))
-    {
-      $header.addClass("alternate-header");
-    }
-  });
-});
-</script>
