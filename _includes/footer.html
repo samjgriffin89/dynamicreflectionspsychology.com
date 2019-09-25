@@ -1,7 +1,12 @@
-<footer class="footer py-4">
-	<section class="container text-center">
-		<p>Phone: {{ site.phone_number }}</p>
-		<p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-		<p>{{ site.address }}</p>
-	</section>
+<footer class="footer container-fluid">
+	<div class="row">
+		<section class="col-lg-2 text-center">
+			<img alt="{{ site.title }}" src="/images/logo.png" />
+		</section>
+		<section>
+			<p><strong>Phone</strong>: {{ site.phone_number }}</p>
+			<p><strong>Email</strong>: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+			<p>{{ site.address }}</p>
+		</section>
+	</div>
 </footer>	

@@ -318,7 +318,7 @@ table {
   .main-content .error-page h2 {
     font-size: 150px; }
   .main-content .error-page h3 {
-    color: #475155; }
+    color: #fff; }
   .main-content .error-page .error-banner {
     overflow: hidden; }
   .main-content .error-page .error-banner img {
@@ -330,41 +330,48 @@ table {
     color: #fff;
     font-size: 4em; }
     .main-content .error-page .error-content a {
-      color: #475155; }
+      color: #fff; }
 
 .navbar {
-  height: 5rem;
-  background: #e3f2fd; }
+  min-height: 5rem; }
+
+.navbar-brand, .nav-item .nav-link {
+  color: #fff;
+  font-family: 'cooper_hewittmedium';
+  text-transform: uppercase; }
 
 .nav-item .nav-link {
-  color: #fff;
   font-size: 15px;
-  font-family: 'cooper_hewittmedium';
-  text-transform: uppercase;
-  text-decoration: none;
-  border: 2px solid transparent;
-  transition: color 0.3s ease; }
+  text-decoration: none; }
   .nav-item .nav-link:hover {
-    color: #000;
-    cursor: pointer; }
+    cursor: pointer;
+    text-decoration: underline; }
+.nav-item.active {
+  text-decoration: underline; }
 
 .footer {
-  color: #000;
-  background: #e3f2fd;
-  flex-shrink: none; }
+  color: #fff;
+  flex-shrink: none;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 2rem 0 !important; }
   .footer p {
     margin: 0;
     line-height: 2; }
   .footer li a, .footer a {
-    color: #000; }
+    color: #fff; }
   .footer li a {
     transition: color 0.3s ease; }
     .footer li a:hover {
-      color: #000; }
+      color: #005253; }
 
 html, body {
   height: 100%;
-  margin: 0; }
+  margin: 0;
+  background: url("../images/about-lexi-bw-cropped.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
   html img, body img {
     width: 100%; }
   html p, html li, body p, body li {
@@ -374,41 +381,19 @@ html, body {
   padding: 0; }
 
 .page-content {
-  flex: 1 0 auto; }
-
-.bx-wrapper {
-  border: 0 !important;
-  bottom: 16px;
-  margin-bottom: 0 !important; }
-  .bx-wrapper ul {
-    margin: 0;
-    padding: 0; }
-  .bx-wrapper img {
-    width: auto;
-    max-width: max-content !important;
-    height: 250px; }
-  @media (min-width: 768px) {
-    .bx-wrapper img {
-      width: 100%;
-      height: 300px;
-      max-width: 100% !important; } }
-  @media (min-width: 992px) {
-    .bx-wrapper img {
-      width: 100%;
-      height: 553px;
-      max-width: 100% !important; } }
+  color: #fff;
+  flex: 1 0 auto;
+  background: rgba(0, 0, 0, 0.3); }
+  .page-content a {
+    color: #fff; }
 
 .page-title-wrapper {
-  padding: 100px 0 30px;
+  padding: 30px 0 30px;
   text-align: center;
   font-size: 3em;
-  background: #005253;
   color: #fff; }
   .page-title-wrapper h2 {
     margin: 0; }
-  @media (min-width: 768px) {
-    .page-title-wrapper {
-      padding: 70px 0 30px; } }
 
 .about-content {
   margin: 35px 20px 35px; }
@@ -431,8 +416,7 @@ html, body {
         left: 25px; } }
   .about-content .publications a {
     display: block;
-    margin: 10px 0;
-    color: #005253; }
+    margin: 10px 0; }
     .about-content .publications a:hover {
       text-decoration: underline; }
   .about-content .about-me-img {
@@ -456,7 +440,6 @@ html, body {
   .homepage-content h3, .homepage-content p {
     text-align: center; }
   .homepage-content h3 {
-    color: #005253;
     font-size: 3em; }
   .homepage-content p {
     margin: 0 auto; }

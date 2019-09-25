@@ -1,7 +1,8 @@
 ﻿.footer {
-    color: #000;
-    background: #e3f2fd;
+    color: #fff;
     flex-shrink: none;
+    background: $primaryBackgroundColor;
+    padding: 2rem 0 !important;
 
     p { 
         margin: 0;
@@ -9,14 +10,14 @@
     }
     
     li a, a { 
-        color: #000;
+        color: #fff;
     }
     
     li a { 
         transition: color 0.3s ease;
 
         &:hover {
-            color: #000;
+            color: $primaryColor;
         }
     }
 }

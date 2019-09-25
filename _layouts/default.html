@@ -11,5 +11,14 @@
 	  {% include footer.html %}
     {% include analytics.html %}
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        var url = window.location;
+
+        $('#navbar a').filter(function() {
+            return url.href.includes(this.href);
+        }).parent().addClass('active');
+      })
+    </script>
   </body>
 </html>

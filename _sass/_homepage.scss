@@ -2,16 +2,11 @@
 	margin: 0 25px 75px;
 	overflow: hidden;
 
-	@include bp(tablet) {
-		
-	}
-
 	h3, p {
 		text-align: center;
 	}
 
 	h3 {
-		color: $primaryColor;
 		font-size: 3em;
 	}
 

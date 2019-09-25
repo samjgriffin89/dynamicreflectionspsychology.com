@@ -1,0 +1,26 @@
+.navbar {
+	min-height: 5rem;
+	//background: $primaryBackgroundColor;
+}
+
+.navbar-brand, .nav-item .nav-link {
+	color: #fff;
+	font-family: 'cooper_hewittmedium';
+	text-transform: uppercase;
+}
+
+.nav-item {
+	.nav-link {
+		font-size: 15px;
+		text-decoration: none;
+
+		&:hover {
+			cursor: pointer;
+			text-decoration: underline;
+		}
+	}
+
+	&.active {
+		text-decoration: underline;
+	}
+}	
