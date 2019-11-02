@@ -1,17 +1,20 @@
 .homepage-content {
-	width: 50%;
-	margin: 0 auto 75px;
+	width: 25%;
+	margin: 5rem auto;
 	padding: 3rem 2rem;
-	// background: rgba(81, 136, 223, 0.6); blue
 	background: rgba(40, 113, 134, 0.6);
 	border-radius: 10px;
 
 	h3 {
-		font-size: 3em;
+		font-size: 2em;
 		margin-top: 0;
 	}
 
 	p {
 		margin: 0 auto;
+	}
+
+	.home-content-button {
+		margin-top: 1rem;
 	}
 }

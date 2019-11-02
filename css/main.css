@@ -333,7 +333,8 @@ table {
       color: #fff; }
 
 .navbar {
-  min-height: 5rem; }
+  min-height: 5rem;
+  background: rgba(40, 113, 134, 0.6); }
 
 .navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
   color: #fff;
@@ -355,7 +356,7 @@ table {
 .footer {
   color: #fff;
   flex-shrink: none;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(40, 113, 134, 0.6);
   padding: 2rem 0 !important; }
   .footer p {
     margin: 0;
@@ -370,11 +371,7 @@ table {
 html, body {
   height: 100%;
   margin: 0;
-  background: url("../images/about-lexi.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  background: #a3a3a3; }
   html img, body img {
     width: 100%; }
   html p, html li, body p, body li {
@@ -385,8 +382,7 @@ html, body {
 
 .page-content {
   color: #fff;
-  flex: 1 0 auto;
-  background: rgba(0, 0, 0, 0.3); }
+  flex: 1 0 auto; }
   .page-content a {
     color: #fff; }
 
@@ -444,15 +440,17 @@ html, body {
       width: 700px; } }
 
 .homepage-content {
-  width: 50%;
-  margin: 0 auto 75px;
+  width: 25%;
+  margin: 5rem auto;
   padding: 3rem 2rem;
   background: rgba(40, 113, 134, 0.6);
   border-radius: 10px; }
   .homepage-content h3 {
-    font-size: 3em;
+    font-size: 2em;
     margin-top: 0; }
   .homepage-content p {
     margin: 0 auto; }
+  .homepage-content .home-content-button {
+    margin-top: 1rem; }
 
 /*# sourceMappingURL=main.css.map */
