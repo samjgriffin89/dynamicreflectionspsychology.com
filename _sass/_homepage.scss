@@ -1,20 +1,17 @@
 .homepage-content {
-	margin: 0 25px 75px;
-	overflow: hidden;
-
-	h3, p {
-		text-align: center;
-	}
+	width: 50%;
+	margin: 0 auto 75px;
+	padding: 3rem 2rem;
+	// background: rgba(81, 136, 223, 0.6); blue
+	background: rgba(40, 113, 134, 0.6);
+	border-radius: 10px;
 
 	h3 {
 		font-size: 3em;
+		margin-top: 0;
 	}
 
 	p {
 		margin: 0 auto;
-
-		@include bp(tablet) {
-			width: 50%;
-		}
 	}
 }
