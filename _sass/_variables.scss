@@ -1,6 +1,11 @@
 ﻿$primaryColor: #005253;
 // $primaryBackgroundColor: rgba(0,0,0,0.3);
-$primaryBackgroundColor: rgba(40, 113, 134, 0.6);
+$primaryBackgroundColor: rgba(40, 113, 134, 0.8);
+
+$blueAccent: #00a3e0;
+$tangerineAccent: #ff6a39;
+$coralAccent: #da1984;
+
 $darkGrey: #475155;
 $borderColor: #eaf0f3;
 $footerColor: #9ba9af;
@@ -40,4 +45,27 @@ $footerBorderColor: #6b757b;
 
 .left {
 	float: left;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-left: 16px solid $blueAccent;
+	border-bottom: 8px solid transparent;	
+}
+
+.triangle-right-blue {
+	@extend .triangle-right;
+	border-left: 16px solid $blueAccent;
+}
+
+.triangle-right-tangerine {
+	@extend .triangle-right;
+	border-left: 16px solid $tangerineAccent;
+}
+
+.triangle-right-coral {
+	@extend .triangle-right;
+	border-left: 16px solid $coralAccent;
 }
