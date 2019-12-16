@@ -6,13 +6,21 @@
 
 .navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
 	color: #fff;
-	font-size: 2vw;
 	font-family: 'bebas_neue_light';
 	text-transform: uppercase;
+
+	@include bp(tablet) {
+        font-size: 2rem;
+    }
 }
 
 .navbar-brand img {
-	padding: 0rem .5rem .5rem .5rem;
+	width: 75%;
+
+	@include bp(tablet) {
+		width: 100%;
+		padding: 0rem .5rem .5rem .5rem;
+	}
 }
 
 .navbar-dark .navbar-toggler-icon {

@@ -1,15 +1,39 @@
 ﻿.footer {
-    color: #fff;
-    flex-shrink: none;
     background: rgb(0,163,224);
     background: linear-gradient(90deg, rgba(0,163,224,1) 0%, rgba(0,191,178,1) 35%, rgba(118,215,212,1) 100%);
     padding: 2rem 0 !important;
+    color: #fff;
+    text-align: center;
+    flex-wrap: wrap;
+
+    .flex-row {
+        @include bp(tablet) {
+            display: flex;
+        }
+    }
+
+    .footer-details {
+        padding-right: 1rem;
+
+        @include bp(tablet) {
+            margin-top: .7rem;
+        }
+    }
 
     p { 
         margin: 0;
-        line-height: 2;
     }
     
+    img {
+        width: 75%;
+        margin-bottom: 1.5rem;
+
+        @include bp(tablet) {
+            width: 100%;
+            margin-bottom: 0;
+        }
+    }
+
     li a, a { 
         color: #fff;
     }

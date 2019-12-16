@@ -11,6 +11,10 @@
   p, li {
   	line-height: 1.5;
   }
+
+  p, li, a, strong {
+  	font-size: 1rem;
+  }
 }
 
 h1, h2 {
@@ -27,7 +31,7 @@ h3, h4, h5, h6 {
 
 .page-content {
 	color: #000;
-	flex: 1 0 auto;
+	flex: 0 0 auto;
 	font-family: 'Roboto', light;
 
 	a {

@@ -361,12 +361,18 @@ table {
 
 .navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
   color: #fff;
-  font-size: 2vw;
   font-family: 'bebas_neue_light';
   text-transform: uppercase; }
+  @media (min-width: 768px) {
+    .navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
+      font-size: 2rem; } }
 
 .navbar-brand img {
-  padding: 0rem .5rem .5rem .5rem; }
+  width: 75%; }
+  @media (min-width: 768px) {
+    .navbar-brand img {
+      width: 100%;
+      padding: 0rem .5rem .5rem .5rem; } }
 
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
@@ -385,14 +391,29 @@ table {
     text-decoration: underline; }
 
 .footer {
-  color: #fff;
-  flex-shrink: none;
   background: #00a3e0;
   background: linear-gradient(90deg, #00a3e0 0%, #00bfb2 35%, #76d7d4 100%);
-  padding: 2rem 0 !important; }
+  padding: 2rem 0 !important;
+  color: #fff;
+  text-align: center;
+  flex-wrap: wrap; }
+  @media (min-width: 768px) {
+    .footer .flex-row {
+      display: flex; } }
+  .footer .footer-details {
+    padding-right: 1rem; }
+    @media (min-width: 768px) {
+      .footer .footer-details {
+        margin-top: .7rem; } }
   .footer p {
-    margin: 0;
-    line-height: 2; }
+    margin: 0; }
+  .footer img {
+    width: 75%;
+    margin-bottom: 1.5rem; }
+    @media (min-width: 768px) {
+      .footer img {
+        width: 100%;
+        margin-bottom: 0; } }
   .footer li a, .footer a {
     color: #fff; }
   .footer li a {
@@ -408,6 +429,8 @@ html, body {
     width: 100%; }
   html p, html li, body p, body li {
     line-height: 1.5; }
+  html p, html li, html a, html strong, body p, body li, body a, body strong {
+    font-size: 1rem; }
 
 h1, h2 {
   font-family: 'ZCOOL XiaoWei'; }
@@ -420,7 +443,7 @@ h3, h4, h5, h6 {
 
 .page-content {
   color: #000;
-  flex: 1 0 auto;
+  flex: 0 0 auto;
   font-family: 'Roboto', light; }
   .page-content a {
     color: #00a3e0; }
@@ -489,55 +512,76 @@ h3, h4, h5, h6 {
 .homepage-header {
   display: block;
   margin-top: 3rem;
-  margin-bottom: 0;
-  font-size: 2.5rem; }
+  margin-bottom: 0; }
+  @media (min-width: 768px) {
+    .homepage-header {
+      font-size: 2.5rem; } }
 
 .homepage-subheader {
-  display: inline-block;
   margin-top: .5rem;
-  font-size: 2rem;
   text-transform: uppercase; }
+  @media (min-width: 768px) {
+    .homepage-subheader {
+      font-size: 2rem; } }
+
+.carousel {
+  display: none; }
+  @media (min-width: 768px) {
+    .carousel {
+      display: block; } }
 
 .homepage-about-content {
-  text-align: left;
-  margin: 8rem 0 6rem 0; }
-  .homepage-about-content .homepage-portrait {
-    width: 50%;
-    margin-top: -2rem;
-    padding-right: 0;
-    margin-left: 6rem; }
-  .homepage-about-content div {
-    padding: 0 3rem; }
-  .homepage-about-content p {
-    width: 80%; }
+  margin: 2rem 0 3rem 0;
+  text-align: center; }
+  .homepage-about-content img {
+    width: 50%; }
+  @media (min-width: 768px) {
+    .homepage-about-content {
+      margin: 8rem 0 6rem 0;
+      overflow: hidden; }
+      .homepage-about-content h2, .homepage-about-content h3, .homepage-about-content p {
+        text-align: left; }
+      .homepage-about-content div {
+        float: left; } }
 
-.homepage-content {
-  width: 25%;
+.homepage-ctas {
+  text-align: center; }
+  @media (min-width: 768px) {
+    .homepage-ctas {
+      overflow: hidden; } }
+
+.homepage-cta {
   margin: .5rem auto;
   padding: 3rem 2rem; }
-  .homepage-content h3 {
+  @media (min-width: 768px) {
+    .homepage-cta {
+      float: left; } }
+  .homepage-cta h3 {
     font-size: 2rem;
     margin-top: 0;
     text-align: left; }
-  .homepage-content p {
+  .homepage-cta p {
     margin: 0 auto;
     color: #000;
     text-align: left; }
-  .homepage-content .learn-more a {
+  .homepage-cta .learn-more a {
     font-family: 'bebas_neue_light';
-    font-size: 1.5vw;
+    font-size: 1.5em;
     margin-top: 1rem; }
-    .homepage-content .learn-more a:hover {
+    .homepage-cta .learn-more a:hover {
       text-decoration: none; }
-  .homepage-content .learn-more span {
+  .homepage-cta .learn-more span {
     margin-top: 5px;
     margin-left: .3rem; }
-  .homepage-content .learn-more::before {
+  .homepage-cta .learn-more::before {
     display: inline-block;
     content: "";
-    width: 11.5rem;
+    width: 14rem;
     margin-right: .5rem;
     transform: translateY(-0.4rem); }
+    @media (min-width: 768px) {
+      .homepage-cta .learn-more::before {
+        width: 18rem; } }
 
 .hc1 h3 {
   color: #00a3e0;

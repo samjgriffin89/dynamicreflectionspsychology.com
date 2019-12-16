@@ -3,42 +3,67 @@
 	display: block;
 	margin-top: 3rem;
 	margin-bottom: 0;
-	font-size: 2.5rem;
+
+	@include bp(tablet) {
+		font-size: 2.5rem;
+	}
 }
 
 .homepage-subheader {
-	display: inline-block;
 	margin-top: .5rem;
-	font-size: 2rem;
 	text-transform: uppercase;
+
+	@include bp(tablet) {
+		font-size: 2rem;
+	}
+}
+
+.carousel {
+	display: none;
+
+	@include bp(tablet) {
+		display: block;
+	}
 }
 
 .homepage-about-content {
-	text-align: left;
-	margin: 8rem 0 6rem 0;
+	margin: 2rem 0 3rem 0;
+	text-align: center;
 
-	.homepage-portrait {
+	img {
 		width: 50%;
-		margin-top: -2rem;
-		padding-right: 0;
-		margin-left: 6rem;
 	}
 
-	div {
-		padding: 0 3rem;
-	}
+	@include bp(tablet) {
+		margin: 8rem 0 6rem 0;
+		overflow: hidden;
 
-	p {
-		width: 80%;
+		h2, h3, p {
+			text-align: left;
+		}
+
+		div {
+			float: left;
+		}
 	}
 }
 
-.homepage-content {
-	width: 25%;
+.homepage-ctas {
+	text-align: center;
+
+	@include bp(tablet) {
+		overflow: hidden;
+	}
+}
+
+.homepage-cta {
+	
+	@include bp(tablet) {
+		float: left;
+	}
+
 	margin: .5rem auto;
 	padding: 3rem 2rem;
-	//background: rgba(40, 113, 134, 0.6);
-	//border-radius: 10px;
 
 	h3 {
 		font-size: 2rem;
@@ -55,7 +80,7 @@
 	.learn-more {
 		a {
 			font-family: 'bebas_neue_light';
-			font-size: 1.5vw;
+			font-size: 1.5em;
 			margin-top: 1rem;
 			
 			&:hover {
@@ -72,9 +97,13 @@
 	.learn-more::before {
 	    display: inline-block;
 	    content: "";
-	    width: 11.5rem;
+	    width: 14rem;
 	    margin-right: .5rem;
 	    transform: translateY(-.4rem);
+
+	    @include bp(tablet) {
+			width: 18rem;
+		}
 	}
 }
 
