@@ -1,8 +1,14 @@
 ﻿html, body {
   height: 100%;
   margin: 0;
-
   background: #fff;
+  color: #000;
+
+  font-family: 'Roboto', light;
+
+	a {
+		color: $blueAccent;
+	}
 
   img {
 	width: 100%;
@@ -18,7 +24,7 @@
 }
 
 h1, h2 {
-	font-family: 'ZCOOL XiaoWei'; // This needs to change out to the new font
+	font-family: 'ZCOOL XiaoWei';
 }
 
 h3, h4, h5, h6 {
@@ -26,17 +32,8 @@ h3, h4, h5, h6 {
 }
 
 .container-fluid {
+	//width: auto;
 	padding: 0;
-}
-
-.page-content {
-	color: #000;
-	flex: 0 0 auto;
-	font-family: 'Roboto', light;
-
-	a {
-		color: $blueAccent;
-	}
 }
 
 .page-title-wrapper {
@@ -49,20 +46,15 @@ h3, h4, h5, h6 {
 	}
 }
 
-.about-content {
+.body-content {
 	margin: 35px 20px 35px;
 
-	@include bp(tablet) {
+	@include bp(desktop) {
 		margin: 35px 50px 35px;
 	}
 
-	img {
-		margin-right: 25px;
-		margin-bottom: 5px;
-
-		@include bp(tablet) {
-			width: 30%;
-		}
+	h3 {
+		font-size: 2rem;
 	}
 
 	q {
@@ -70,7 +62,7 @@ h3, h4, h5, h6 {
 		margin: 25px;
 		font-style: italic;
 
-		@include bp(tablet) {
+		@include bp(desktop) {
 			position: relative;
 			left: 25px;
 		}
@@ -83,10 +75,6 @@ h3, h4, h5, h6 {
 		&:hover {
 			text-decoration: underline;
 		}
-	}
-
-	.about-me-img {
-		margin-bottom: 25px;		
 	}
 }
 
@@ -124,7 +112,7 @@ h3, h4, h5, h6 {
 	width: 300px;
 	margin: 0 auto;
 
-	@include bp(tablet) {
+	@include bp(desktop) {
 		height: 400px;
 		width: 700px;
 	}

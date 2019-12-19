@@ -1,14 +1,12 @@
-<footer class="footer containter-fluid">
-	<div class="flex-row">
-		<div class="col-md-1 col-lg-3 col-xl-3 footer-logo">
-			<a href="/">
-				<img src="/images/logo.svg" alt="{{ site.title }}" />
-			</a>
-		</div>
-		<div class="flex-fill text-md-right footer-details">
-			<p>{{ site.phone_number }}</p>
-			<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-			<p>{{ site.address }}</p>
-		</div>
+<footer class="d-flex footer containter-fluid">
+	<div class="col-md-6 col-lg-3 col-xl-3 footer-logo">
+		<a href="/">
+			<img src="/images/logo.svg" alt="{{ site.title }}" />
+		</a>
+	</div>
+	<div class="flex-fill text-md-right footer-details">
+		<p>{{ site.phone_number }}</p>
+		<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+		<p>{{ site.address }}</p>
 	</div>
 </footer>	

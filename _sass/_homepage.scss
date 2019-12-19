@@ -1,10 +1,9 @@
-
 .homepage-header {
 	display: block;
 	margin-top: 3rem;
 	margin-bottom: 0;
 
-	@include bp(tablet) {
+	@include bp(desktop) {
 		font-size: 2.5rem;
 	}
 }
@@ -13,7 +12,7 @@
 	margin-top: .5rem;
 	text-transform: uppercase;
 
-	@include bp(tablet) {
+	@include bp(desktop) {
 		font-size: 2rem;
 	}
 }
@@ -21,12 +20,14 @@
 .carousel {
 	display: none;
 
-	@include bp(tablet) {
+	@include bp(desktop) {
 		display: block;
 	}
 }
 
 .homepage-about-content {
+	display: flex;
+	flex-wrap: wrap;
 	margin: 2rem 0 3rem 0;
 	text-align: center;
 
@@ -35,30 +36,37 @@
 	}
 
 	@include bp(tablet) {
+		p {
+			padding: 0 5rem;
+		}
+	}
+
+	@include bp(desktop) {
 		margin: 8rem 0 6rem 0;
-		overflow: hidden;
 
 		h2, h3, p {
 			text-align: left;
 		}
 
-		div {
-			float: left;
+		p {
+			padding: 0;
 		}
 	}
 }
 
 .homepage-ctas {
+	display: flex;
+	flex-wrap: wrap;
 	text-align: center;
 
-	@include bp(tablet) {
+	@include bp(desktop) {
 		overflow: hidden;
 	}
 }
 
 .homepage-cta {
 	
-	@include bp(tablet) {
+	@include bp(desktop) {
 		float: left;
 	}
 
@@ -97,11 +105,11 @@
 	.learn-more::before {
 	    display: inline-block;
 	    content: "";
-	    width: 14rem;
+	    width: 48vw;
 	    margin-right: .5rem;
 	    transform: translateY(-.4rem);
 
-	    @include bp(tablet) {
+	    @include bp(desktop) {
 			width: 18rem;
 		}
 	}

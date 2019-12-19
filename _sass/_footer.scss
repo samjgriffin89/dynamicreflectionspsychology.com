@@ -6,16 +6,15 @@
     text-align: center;
     flex-wrap: wrap;
 
-    .flex-row {
-        @include bp(tablet) {
-            display: flex;
-        }
-    }
-
     .footer-details {
         padding-right: 1rem;
+        margin-top: 2rem;
 
         @include bp(tablet) {
+            margin-top: 1.2rem;
+        }
+
+        @include bp(desktop) {
             margin-top: .7rem;
         }
     }
@@ -25,13 +24,8 @@
     }
     
     img {
-        width: 75%;
-        margin-bottom: 1.5rem;
-
-        @include bp(tablet) {
-            width: 100%;
-            margin-bottom: 0;
-        }
+        width: 100%;
+        margin-bottom: 0;
     }
 
     li a, a { 
