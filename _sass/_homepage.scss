@@ -20,7 +20,7 @@
 .carousel {
 	display: none;
 
-	@include bp(desktop) {
+	@include bp(ipadpro) {
 		display: block;
 	}
 }
@@ -108,6 +108,10 @@
 	    width: 48vw;
 	    margin-right: .5rem;
 	    transform: translateY(-.4rem);
+
+	    @include bp(ipadpro) {
+			width: 9rem;
+		}
 
 	    @include bp(desktop) {
 			width: 18rem;

@@ -356,6 +356,7 @@ table {
 
 .navbar {
   min-height: 5rem;
+  padding: 1rem;
   background: #00a3e0;
   background: linear-gradient(90deg, #00a3e0 0%, #00bfb2 35%, #76d7d4 100%); }
 
@@ -431,6 +432,7 @@ table {
 
 html, body {
   height: 100%;
+  width: 100%;
   margin: 0;
   background: #fff;
   color: #000;
@@ -459,6 +461,12 @@ h3, h4, h5, h6 {
   font-size: 3em; }
   .page-title-wrapper h2 {
     margin: 0; }
+
+.main-content {
+  /* Portrait and Landscape */ }
+  @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .main-content {
+      min-height: 1055px; } }
 
 .body-content {
   margin: 35px 20px 35px; }
@@ -524,8 +532,9 @@ h3, h4, h5, h6 {
       font-size: 2rem; } }
 
 .carousel {
-  display: none; }
-  @media (min-width: 1200px) {
+  display: none;
+  /* Portrait and Landscape */ }
+  @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .carousel {
       display: block; } }
 
@@ -583,7 +592,11 @@ h3, h4, h5, h6 {
     content: "";
     width: 48vw;
     margin-right: .5rem;
-    transform: translateY(-0.4rem); }
+    transform: translateY(-0.4rem);
+    /* Portrait and Landscape */ }
+    @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+      .homepage-cta .learn-more::before {
+        width: 9rem; } }
     @media (min-width: 1200px) {
       .homepage-cta .learn-more::before {
         width: 18rem; } }

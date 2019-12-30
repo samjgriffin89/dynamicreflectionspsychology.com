@@ -1,5 +1,6 @@
 ﻿html, body {
   height: 100%;
+  width: 100%;
   margin: 0;
   background: #fff;
   color: #000;
@@ -44,6 +45,12 @@ h3, h4, h5, h6 {
 	h2 {
 		margin: 0;
 	}
+}
+
+.main-content {
+	@include bp(ipadpro) {
+		min-height: 1055px;
+	}	
 }
 
 .body-content {
