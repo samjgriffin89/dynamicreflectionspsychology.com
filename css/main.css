@@ -369,9 +369,12 @@ table {
 
 .navbar-brand {
   width: 65%; }
+  @media (min-width: 768px) {
+    .navbar-brand {
+      width: 50%; } }
   @media (min-width: 1200px) {
     .navbar-brand {
-      width: 100%;
+      width: 20rem;
       padding: 0rem .5rem .5rem .5rem; } }
 
 .navbar-dark .navbar-toggler-icon {
