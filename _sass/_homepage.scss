@@ -23,6 +23,10 @@
 	@include bp(ipadpro) {
 		display: block;
 	}
+
+	@include bp(desktop) {
+		display: block;
+	}
 }
 
 .homepage-about-content {
