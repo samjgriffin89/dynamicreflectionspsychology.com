@@ -69,3 +69,7 @@ $footerBorderColor: #6b757b;
 	@extend .triangle-right;
 	border-left: 16px solid $coralAccent;
 }
+
+.w-45 {
+	width: 45%;
+}

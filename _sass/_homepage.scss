@@ -27,6 +27,21 @@
 	@include bp(desktop) {
 		display: block;
 	}
+
+	.carousel-item {
+		height: 500px;
+		position: relative;
+
+		@include bp(ipadpro) {
+			height: 374px;
+		}
+
+		img {
+			position: absolute;
+			bottom: -100px;
+			left: 0;
+		}
+	}
 }
 
 .homepage-about-content {
@@ -46,7 +61,7 @@
 	}
 
 	@include bp(desktop) {
-		margin: 8rem 0 6rem 0;
+		margin: 6rem 0;
 
 		h2, h3, p {
 			text-align: left;
@@ -55,115 +70,5 @@
 		p {
 			padding: 0;
 		}
-	}
-}
-
-.homepage-ctas {
-	display: flex;
-	flex-wrap: wrap;
-	text-align: center;
-
-	@include bp(desktop) {
-		overflow: hidden;
-	}
-}
-
-.homepage-cta {
-	
-	@include bp(desktop) {
-		float: left;
-	}
-
-	margin: .5rem auto;
-	padding: 3rem 2rem;
-
-	h3 {
-		font-size: 2rem;
-		margin-top: 0;
-		text-align: left;
-	}
-
-	p {
-		margin: 0 auto;
-		color: #000;
-		text-align: left;
-	}
-
-	.learn-more {
-		a {
-			font-family: 'bebas_neue_light';
-			font-size: 1.5em;
-			margin-top: 1rem;
-			
-			&:hover {
-				text-decoration: none;
-			}
-		}
-
-		span {
-			margin-top: 5px;
-			margin-left: .3rem;
-		}
-	}
-
-	.learn-more::before {
-	    display: inline-block;
-	    content: "";
-	    width: 48vw;
-	    margin-right: .5rem;
-	    transform: translateY(-.4rem);
-
-	    @include bp(ipadpro) {
-			width: 9rem;
-		}
-
-	    @include bp(desktop) {
-			width: 18rem;
-		}
-	}
-}
-
-.hc1 {
-	h3 {
-		color: $blueAccent;
-		border-bottom: solid $blueAccent .3rem;
-	}
-
-	.learn-more a {
-		color: $blueAccent;
-	}
-
-	.learn-more::before {
-	    border-top: .3rem solid $blueAccent;
-	}
-}
-
-.hc2 {
-	h3 {
-		color: $tangerineAccent;
-		border-bottom: solid $tangerineAccent .3rem;
-	}
-
-	.learn-more a {
-		color: $tangerineAccent;
-	}
-
-	.learn-more::before {
-	    border-top: .3rem solid $tangerineAccent;
-	}
-}
-
-.hc3 {
-	h3 {
-		color: $coralAccent;
-		border-bottom: solid $coralAccent .3rem;
-	}
-
-	.learn-more a {
-		color: $coralAccent;
-	}
-
-	.learn-more::before {
-	    border-top: .3rem solid $coralAccent;
 	}
 }
