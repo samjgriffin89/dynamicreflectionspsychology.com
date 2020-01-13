@@ -1,24 +1,33 @@
-﻿.footer, .push {
-    height: 150px;
-}
-
-.footer {
-    width: 96%;
-    padding: 10px 2%;
-    overflow: hidden;
-    position: relative;
-    z-index: 10;
+﻿.footer {
+    background: rgb(0,163,224);
+    background: linear-gradient(90deg, rgba(0,163,224,1) 0%, rgba(0,191,178,1) 35%, rgba(118,215,212,1) 100%);
+    padding: 2rem 0 !important;
     color: #fff;
-    background: $primaryColor;
+    text-align: center;
+    flex-wrap: wrap;
 
-    hgroup {
-		float: left;
-	}
+    .footer-details {
+        padding-right: 1rem;
+        margin-top: 2rem;
 
-	h1 {
-        display: none;
-	}
+        @include bp(tablet) {
+            margin-top: 1.2rem;
+        }
+
+        @include bp(desktop) {
+            margin-top: .7rem;
+        }
+    }
+
+    p { 
+        margin: 0;
+    }
     
+    img {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
     li a, a { 
         color: #fff;
     }
@@ -27,43 +36,7 @@
         transition: color 0.3s ease;
 
         &:hover {
-            color: #000;
-        }
-    }
-
-    .navigation {
-        width: 100%;
-        margin: 0;
-        text-align: center;
-    }
-
-
-    .footer-contact {
-        width: 100%;
-        margin: 0 auto 0;
-        text-align: center;
-    }
-
-    @include bp(laptop) {
-        h1 {
-            display: block;
-            float: left;
-            margin-top: 55px;
-
-            a { 
-                color: #fff;
-            }
-        }
-
-        .navigation {
-            width: auto;
-            margin-top: 60px;
-            text-align: initial;
-        }
-
-        .footer-contact {
-            width: 50%;
-            margin-top: 25px;
+            color: $primaryColor;
         }
     }
 }

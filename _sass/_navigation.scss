@@ -1,0 +1,64 @@
+.navbar {
+	min-height: 5rem;
+	padding: 1rem;
+	background: rgb(0,163,224);
+	background: linear-gradient(90deg, rgba(0,163,224,1) 0%, rgba(0,191,178,1) 35%, rgba(118,215,212,1) 100%);
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	font-family: 'bebas_neue_light';
+	text-transform: uppercase;
+
+	@include bp(desktop) {
+        font-size: 2rem;
+    }
+}
+
+.navbar-brand {
+	width: 65%;
+
+	@include bp(tablet) {
+		width: 50%;
+	}
+
+	@include bp(desktop) {
+		width: 20rem;
+		padding: 0rem .5rem .5rem .5rem;
+	}
+}
+
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav {
+	margin-top: 2rem;
+	text-align: center;
+
+	@include bp(desktop) {
+		float: right;
+	}
+}
+
+.nav-item {
+	margin: 0 .5rem;
+
+	.nav-link {
+		font-size: 2.5rem;
+		text-decoration: none;
+
+		&:hover {
+			cursor: pointer;
+			text-decoration: underline;
+		}
+
+		@include bp(desktop) {
+			font-size: 1rem;
+		}
+	}
+
+	&.active {
+		text-decoration: underline;
+	}
+}	
