@@ -24,3 +24,5 @@ plugins:
 exclude:
   - .gitignore
   - README.md
+  - .sass-cache
+  - .jekyll-cache
