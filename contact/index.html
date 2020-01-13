@@ -15,25 +15,7 @@ description: Dr. Julie Melowsky Griffin, PsyD obtained her doctoral degree in Ps
 		<a class="LI-simple-link" href="https://www.linkedin.com/in/julie-griffin-psyd-0a321950?trk=profile-badge">Julie Griffin, PsyD</a>
 	</div>
 
-	<div style="height:100%; width:100%; margin-top:1rem;">
-		<div id="map" class="contact-map"></div>
+	<div class="contact-map">
+		<img src="/images/office-map.png" alt="{{ site.address }}" />
 	</div>
 </section>
-
-<script>
-	function initMap() {
-		var uluru = { lat: 39.849733, lng: -105.0515423 };
-  
-  		var map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 14,
-			center: uluru
-		});
-
-		var marker = new google.maps.Marker({
-			position: uluru,
-			map: map
-		});
-	}
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_api_key }}&callback=initMap">
-</script>

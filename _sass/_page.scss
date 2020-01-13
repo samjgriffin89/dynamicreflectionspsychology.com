@@ -292,12 +292,18 @@ h3, h4, h5, h6 {
 }
 
 .contact-map {
-	height: 200px;
-	width: 300px;
-	margin: 0 auto;
+	padding: 1rem;
+	text-align: center;
 
-	@include bp(desktop) {
-		height: 400px;
-		width: 700px;
+	img {
+		width: 100%;
+
+		@include bp(desktop) {
+			width: 80%;
+		}
+
+		@include bp(desktop) {
+			width: 50%;
+		}
 	}
 }
