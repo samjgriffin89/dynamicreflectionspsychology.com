@@ -1,1 +1,1 @@
-# drjuliegriffin.com
+# dynamicreflectionspsychology.com
