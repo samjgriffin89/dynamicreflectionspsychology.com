@@ -600,8 +600,21 @@ h3, h4, h5, h6 {
   width: 100%;
   height: 100%; }
 
+.about-pic {
+  width: 100%;
+  padding-bottom: 1rem; }
+  @media (min-width: 768px) {
+    .about-pic {
+      width: 35%;
+      padding: 0 2rem 1rem 0; } }
+
 .about-lexi-pic {
-  padding-left: 0; }
+  width: 100%;
+  padding-bottom: 1rem; }
+  @media (min-width: 768px) {
+    .about-lexi-pic {
+      width: 35%;
+      padding: 0 2rem 1rem 0; } }
 
 .services-blurb {
   margin-bottom: 3rem; }
