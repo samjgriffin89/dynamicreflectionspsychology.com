@@ -646,14 +646,14 @@ h3, h4, h5, h6 {
 .contact-map {
   padding: 1rem;
   text-align: center; }
-  .contact-map img {
+  .contact-map iframe {
     width: 100%; }
     @media (min-width: 1200px) {
-      .contact-map img {
+      .contact-map iframe {
         width: 80%; } }
     @media (min-width: 1200px) {
-      .contact-map img {
-        width: 50%; } }
+      .contact-map iframe {
+        width: 60%; } }
 
 .homepage-header {
   display: block;

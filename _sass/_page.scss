@@ -312,7 +312,7 @@ h3, h4, h5, h6 {
 	padding: 1rem;
 	text-align: center;
 
-	img {
+	iframe {
 		width: 100%;
 
 		@include bp(desktop) {
@@ -320,7 +320,7 @@ h3, h4, h5, h6 {
 		}
 
 		@include bp(desktop) {
-			width: 50%;
+			width: 60%;
 		}
 	}
 }
