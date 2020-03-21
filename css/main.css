@@ -697,6 +697,18 @@ h3, h4, h5, h6 {
       .contact-map iframe {
         width: 60%; } }
 
+.covid-contact {
+  display: block; }
+  .covid-contact p {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1.5em;
+    border: #00a3e0 2px solid;
+    font-size: 1.5em; }
+  .covid-contact a {
+    font-size: 1.0em;
+    color: #ff6a39; }
+
 .homepage-header {
   display: block;
   margin-top: 3rem;

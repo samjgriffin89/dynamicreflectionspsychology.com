@@ -380,3 +380,21 @@ h3, h4, h5, h6 {
 		}
 	}
 }
+
+.covid-contact {
+	display: block;
+	
+
+	p {
+		width: 60%;
+		margin: 0 auto;
+		padding: 1.5em;
+		border: $blueAccent 2px solid;
+		font-size: 1.5em;
+	}
+
+	a {
+		font-size: 1.0em;
+		color: $tangerineAccent;
+	}
+}
