@@ -444,8 +444,10 @@ html, body {
     color: #00a3e0; }
   html img, body img {
     width: 100%; }
-  html p, html li, body p, body li {
+  html p, body p {
     line-height: 1.5; }
+  html li, body li {
+    line-height: 2; }
   html p, html li, html a, html strong, body p, body li, body a, body strong {
     font-size: 1rem; }
 
@@ -553,6 +555,46 @@ h3, h4, h5, h6 {
     @media (min-width: 1200px) {
       .cta .learn-more::before {
         width: 18rem; } }
+
+.blue-bullets li {
+  display: block;
+  list-style: none;
+  /* Give the bullet room on the left hand side */
+  padding: 0;
+  position: relative; }
+  .blue-bullets li:before {
+    color: #00a3e0;
+    /* color of bullet or square */
+    content: "\2022";
+    /* Unicode of character to precede the list item */
+    display: inline-block;
+    font-size: 1.5em;
+    /* use em or % */
+    left: -.8em;
+    /* use em, line up bullet flush with left hand side */
+    position: absolute;
+    /* Set the bullet positioned absolutely top left */
+    top: -.3em; }
+
+.pink-bullets li {
+  display: block;
+  list-style: none;
+  /* Give the bullet room on the left hand side */
+  padding: 0;
+  position: relative; }
+  .pink-bullets li:before {
+    color: #da1984;
+    /* color of bullet or square */
+    content: "\2022";
+    /* Unicode of character to precede the list item */
+    display: inline-block;
+    font-size: 1.5em;
+    /* use em or % */
+    left: -.8em;
+    /* use em, line up bullet flush with left hand side */
+    position: absolute;
+    /* Set the bullet positioned absolutely top left */
+    top: -.3em; }
 
 .blue-text {
   color: #00a3e0; }
