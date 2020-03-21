@@ -763,4 +763,14 @@ h3, h4, h5, h6 {
       .homepage-about-content p {
         padding: 0; } }
 
+.covid-cta {
+  background: #ff6a39;
+  margin-top: 2em;
+  width: 50%;
+  margin: 2em auto 0 auto; }
+  .covid-cta a {
+    color: #fff; }
+  .covid-cta h2 {
+    padding: 1.5em; }
+
 /*# sourceMappingURL=main.css.map */
