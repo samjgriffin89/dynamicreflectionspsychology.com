@@ -96,86 +96,6 @@ h3, h4, h5, h6 {
 	}
 }
 
-.ctas {
-	display: flex;
-	flex-wrap: wrap;
-	text-align: center;
-
-	@include bp(desktop) {
-		overflow: hidden;
-	}
-}
-
-.why-psychotherapy-ctas .cta {
-	margin: 0;
-	padding: 1rem 0;
-
-	@include bp(tablet) {
-		margin: .5rem auto;
-		padding: 3rem 2rem;
-	}
-}
-
-.cta {
-	
-	@include bp(desktop) {
-		float: left;
-	}
-
-	margin: .5rem auto;
-	padding: 1rem 2rem;
-
-	@include bp(desktop) {
-		margin: .5rem auto;
-		padding: 3rem 2rem;
-	}
-
-	h3 {
-		font-size: 2rem;
-		margin-top: 0;
-		text-align: left;
-	}
-
-	p {
-		margin: 0 auto;
-		color: #000;
-		text-align: left;
-	}
-
-	.learn-more {
-		a {
-			font-family: 'bebas_neue_light';
-			font-size: 1.5em;
-			margin-top: 1rem;
-			
-			&:hover {
-				text-decoration: none;
-			}
-		}
-
-		span {
-			margin-top: 5px;
-			margin-left: .3rem;
-		}
-	}
-
-	.learn-more::before {
-	    display: inline-block;
-	    content: "";
-	    width: 48vw;
-	    margin-right: .5rem;
-	    transform: translateY(-.4rem);
-
-	    @include bp(ipadpro) {
-			width: 9rem;
-		}
-
-	    @include bp(desktop) {
-			width: 18rem;
-		}
-	}
-}
-
 .blue-bullets {
 	li {
 		display: block;
@@ -225,63 +145,6 @@ h3, h4, h5, h6 {
 			/* Set the bullet positioned absolutely top left */
 			top: -.3em; 
 		}
-	}
-}
-
-.blue-text {
-	color: $blueAccent;
-}
-
-.tangerine-text {
-	color: $tangerineAccent;
-}
-
-.coral-text {
-	color: $coralAccent;
-}
-
-.blue-cta {
-	h3 {
-		color: $blueAccent;
-		border-bottom: solid $blueAccent .3rem;
-	}
-
-	.learn-more a {
-		color: $blueAccent;
-	}
-
-	.learn-more::before {
-	    border-top: .3rem solid $blueAccent;
-	}
-}
-
-.tangerine-cta {
-	h3 {
-		color: $tangerineAccent;
-		border-bottom: solid $tangerineAccent .3rem;
-	}
-
-	.learn-more a {
-		color: $tangerineAccent;
-	}
-
-	.learn-more::before {
-	    border-top: .3rem solid $tangerineAccent;
-	}
-}
-
-.coral-cta {
-	h3 {
-		color: $coralAccent;
-		border-bottom: solid $coralAccent .3rem;
-	}
-
-	.learn-more a {
-		color: $coralAccent;
-	}
-
-	.learn-more::before {
-	    border-top: .3rem solid $coralAccent;
 	}
 }
 
@@ -361,7 +224,11 @@ h3, h4, h5, h6 {
 
 .contact-content {
 	text-align: center;
-	margin: 35px 20px 35px;
+	margin: 35px 20px 75px;
+}
+
+.contact-social-media {
+	padding-top: 3em;
 }
 
 .contact-map {
@@ -397,4 +264,8 @@ h3, h4, h5, h6 {
 		font-size: 1.0em;
 		color: $tangerineAccent;
 	}
+}
+
+.company-values-img {
+	max-width: 1000px;
 }

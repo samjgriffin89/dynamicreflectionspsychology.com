@@ -287,6 +287,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.blue-text {
+  color: #00a3e0; }
+
+.tangerine-text {
+  color: #ff6a39; }
+
+.coral-text {
+  color: #da1984; }
+
 .flex-display {
   display: -webkit-box;
   display: -moz-box;
@@ -317,6 +326,12 @@ table {
 
 .left {
   float: left; }
+
+.center {
+  text-align: center; }
+
+.clear {
+  overflow: hidden; }
 
 .triangle-right, .triangle-right-blue, .triangle-right-tangerine, .triangle-right-coral {
   width: 0;
@@ -392,9 +407,9 @@ table {
       float: right; } }
 
 .nav-item {
-  margin: 0 .5rem; }
+  margin: 0 1rem; }
   .nav-item .nav-link {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-decoration: none; }
     .nav-item .nav-link:hover {
       cursor: pointer;
@@ -499,63 +514,6 @@ h3, h4, h5, h6 {
     .body-content .publications a:hover {
       text-decoration: underline; }
 
-.ctas {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center; }
-  @media (min-width: 1200px) {
-    .ctas {
-      overflow: hidden; } }
-
-.why-psychotherapy-ctas .cta {
-  margin: 0;
-  padding: 1rem 0; }
-  @media (min-width: 768px) {
-    .why-psychotherapy-ctas .cta {
-      margin: .5rem auto;
-      padding: 3rem 2rem; } }
-
-.cta {
-  margin: .5rem auto;
-  padding: 1rem 2rem; }
-  @media (min-width: 1200px) {
-    .cta {
-      float: left; } }
-  @media (min-width: 1200px) {
-    .cta {
-      margin: .5rem auto;
-      padding: 3rem 2rem; } }
-  .cta h3 {
-    font-size: 2rem;
-    margin-top: 0;
-    text-align: left; }
-  .cta p {
-    margin: 0 auto;
-    color: #000;
-    text-align: left; }
-  .cta .learn-more a {
-    font-family: 'bebas_neue_light';
-    font-size: 1.5em;
-    margin-top: 1rem; }
-    .cta .learn-more a:hover {
-      text-decoration: none; }
-  .cta .learn-more span {
-    margin-top: 5px;
-    margin-left: .3rem; }
-  .cta .learn-more::before {
-    display: inline-block;
-    content: "";
-    width: 48vw;
-    margin-right: .5rem;
-    transform: translateY(-0.4rem);
-    /* Portrait and Landscape */ }
-    @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-      .cta .learn-more::before {
-        width: 9rem; } }
-    @media (min-width: 1200px) {
-      .cta .learn-more::before {
-        width: 18rem; } }
-
 .blue-bullets li {
   display: block;
   list-style: none;
@@ -595,39 +553,6 @@ h3, h4, h5, h6 {
     position: absolute;
     /* Set the bullet positioned absolutely top left */
     top: -.3em; }
-
-.blue-text {
-  color: #00a3e0; }
-
-.tangerine-text {
-  color: #ff6a39; }
-
-.coral-text {
-  color: #da1984; }
-
-.blue-cta h3 {
-  color: #00a3e0;
-  border-bottom: solid #00a3e0 0.3rem; }
-.blue-cta .learn-more a {
-  color: #00a3e0; }
-.blue-cta .learn-more::before {
-  border-top: 0.3rem solid #00a3e0; }
-
-.tangerine-cta h3 {
-  color: #ff6a39;
-  border-bottom: solid #ff6a39 0.3rem; }
-.tangerine-cta .learn-more a {
-  color: #ff6a39; }
-.tangerine-cta .learn-more::before {
-  border-top: 0.3rem solid #ff6a39; }
-
-.coral-cta h3 {
-  color: #da1984;
-  border-bottom: solid #da1984 0.3rem; }
-.coral-cta .learn-more a {
-  color: #da1984; }
-.coral-cta .learn-more::before {
-  border-top: 0.3rem solid #da1984; }
 
 .video-responsive {
   position: relative;
@@ -683,7 +608,10 @@ h3, h4, h5, h6 {
 
 .contact-content {
   text-align: center;
-  margin: 35px 20px 35px; }
+  margin: 35px 20px 75px; }
+
+.contact-social-media {
+  padding-top: 3em; }
 
 .contact-map {
   padding: 1rem;
@@ -708,6 +636,9 @@ h3, h4, h5, h6 {
   .covid-contact a {
     font-size: 1.0em;
     color: #ff6a39; }
+
+.company-values-img {
+  max-width: 1000px; }
 
 .homepage-header {
   display: block;
@@ -771,6 +702,101 @@ h3, h4, h5, h6 {
   .covid-cta a {
     color: #fff; }
   .covid-cta h2 {
-    padding: 1.5em; }
+    padding: .5em; }
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; }
+  @media (min-width: 1200px) {
+    .ctas {
+      overflow: hidden; } }
+
+.cta {
+  margin: .5rem auto;
+  padding: 1rem 2rem; }
+  @media (min-width: 1200px) {
+    .cta {
+      float: left; } }
+  @media (min-width: 1200px) {
+    .cta {
+      margin: .5rem auto;
+      padding: 3rem 2rem; } }
+  .cta h3 {
+    font-size: 2rem;
+    margin-top: 0;
+    text-align: left; }
+  .cta p {
+    margin: 0 auto;
+    color: #000;
+    text-align: left; }
+
+.homepage-ctas {
+  margin-bottom: 3em; }
+  .homepage-ctas .cta-button {
+    margin-top: 2em; }
+
+.why-psychotherapy-ctas .cta {
+  margin: 0;
+  padding: 1rem 0; }
+  @media (min-width: 768px) {
+    .why-psychotherapy-ctas .cta {
+      margin: .5rem auto;
+      padding: 4rem 2rem; } }
+
+.bottom-cta-border {
+  position: relative;
+  top: 1em; }
+
+.blue-cta h3 {
+  color: #00a3e0;
+  border-bottom: solid #00a3e0 0.3rem; }
+.blue-cta .bottom-cta-border {
+  border-bottom: solid #00a3e0 0.3rem; }
+
+.tangerine-cta h3 {
+  color: #ff6a39;
+  border-bottom: solid #ff6a39 0.3rem; }
+.tangerine-cta .bottom-cta-border {
+  border-bottom: solid #ff6a39 0.3rem; }
+
+.coral-cta h3 {
+  color: #da1984;
+  border-bottom: solid #da1984 0.3rem; }
+.coral-cta .bottom-cta-border {
+  border-bottom: solid #da1984 0.3rem; }
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1em; }
+  .cta-button a {
+    display: inline-block;
+    padding: .5em 1.5em; }
+    .cta-button a:hover {
+      text-decoration: none; }
+
+.blue-cta-button {
+  border: 2px solid #00a3e0; }
+  .blue-cta-button a {
+    color: #00a3e0; }
+    .blue-cta-button a:hover {
+      color: #fff;
+      background: #00a3e0; }
+
+.tangerine-cta-button {
+  border: 2px solid #ff6a39; }
+  .tangerine-cta-button a {
+    color: #ff6a39; }
+    .tangerine-cta-button a:hover {
+      color: #fff;
+      background: #ff6a39; }
+
+.coral-cta-button {
+  border: 2px solid #da1984; }
+  .coral-cta-button a {
+    color: #da1984; }
+    .coral-cta-button a:hover {
+      color: #fff;
+      background: #da1984; }
 
 /*# sourceMappingURL=main.css.map */
