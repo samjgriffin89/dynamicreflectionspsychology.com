@@ -1,0 +1,146 @@
+.ctas {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+
+	@include bp(desktop) {
+		overflow: hidden;
+	}
+}
+
+.cta {
+	
+	@include bp(desktop) {
+		float: left;
+	}
+
+	margin: .5rem auto;
+	padding: 1rem 2rem;
+
+	@include bp(desktop) {
+		margin: .5rem auto;
+		padding: 3rem 2rem;
+	}
+
+	h3 {
+		font-size: 2rem;
+		margin-top: 0;
+		text-align: left;
+	}
+
+	p {
+		margin: 0 auto;
+		color: #000;
+		text-align: left;
+	}
+}
+
+
+.homepage-ctas {
+	margin-bottom: 3em;
+
+	.cta-button {
+		margin-top: 2em;
+	}
+}
+
+.why-psychotherapy-ctas .cta {
+	margin: 0;
+	padding: 1rem 0;
+
+	@include bp(tablet) {
+		margin: .5rem auto;
+		padding: 4rem 2rem;
+	}
+}
+
+.bottom-cta-border {
+	position: relative;
+	top: 1em;
+}
+
+.blue-cta {
+	h3 {
+		color: $blueAccent;
+		border-bottom: solid $blueAccent .3rem;
+	}
+
+	.bottom-cta-border {
+		border-bottom: solid $blueAccent .3rem;
+	}
+}
+
+.tangerine-cta {
+	h3 {
+		color: $tangerineAccent;
+		border-bottom: solid $tangerineAccent .3rem;
+	}
+
+	.bottom-cta-border {
+		border-bottom: solid $tangerineAccent .3rem;
+	}
+}
+
+.coral-cta {
+	h3 {
+		color: $coralAccent;
+		border-bottom: solid $coralAccent .3rem;
+	}
+
+	.bottom-cta-border {
+		border-bottom: solid $coralAccent .3rem;
+	}
+}
+
+.cta-button {
+	display: inline-block;
+	margin-top: 1em; 
+
+	a {
+		display: inline-block;
+		padding: .5em 1.5em;
+
+		&:hover {
+			text-decoration: none;
+		};
+	}
+}
+
+.blue-cta-button {
+	border: 2px solid $blueAccent;
+
+	a {
+		color: $blueAccent;
+
+		&:hover {
+			color: #fff;
+			background: $blueAccent;
+		};
+	}
+}
+
+.tangerine-cta-button {
+	border: 2px solid $tangerineAccent;
+
+	a {
+		color: $tangerineAccent;
+
+		&:hover {
+			color: #fff;
+			background: $tangerineAccent;
+		};
+	}
+}
+
+.coral-cta-button {
+	border: 2px solid $coralAccent;
+
+	a {
+		color: $coralAccent;
+
+		&:hover {
+			color: #fff;
+			background: $coralAccent;
+		};
+	}
+}

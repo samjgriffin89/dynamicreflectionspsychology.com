@@ -11,6 +11,18 @@ $borderColor: #eaf0f3;
 $footerColor: #9ba9af;
 $footerBorderColor: #6b757b;
 
+.blue-text {
+	color: $blueAccent;
+}
+
+.tangerine-text {
+	color: $tangerineAccent;
+}
+
+.coral-text {
+	color: $coralAccent;
+}
+
 .flex-display {
 	display: -webkit-box;
 	display: -moz-box;
@@ -45,6 +57,15 @@ $footerBorderColor: #6b757b;
 
 .left {
 	float: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.clear
+{
+	overflow: hidden;
 }
 
 .triangle-right {
