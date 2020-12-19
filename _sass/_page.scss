@@ -1,9 +1,14 @@
-﻿html, body {
+﻿// ----- Generic page definitions -----
+
+html, body {
   height: 100%;
   width: 100%;
   margin: 0;
   background: #fff;
   color: #000;
+
+  position: relative;
+  min-height: 100vh;
 
   font-family: 'Roboto', light;
 
@@ -28,26 +33,25 @@
   }
 }
 
-h1, h2 {
+h1 {
 	font-family: 'ZCOOL XiaoWei';
 }
 
-h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
 	font-family: 'bebas_neue_light';
 	margin: 1rem 0;
 }
 
 .container-fluid {
-	//width: auto;
 	padding: 0;
 }
 
 .page-title-wrapper {
 	padding: 30px 0 30px;
 	text-align: center;
-	font-size: 3em;
+	font-size: 2.25em;
 
-	h2 {
+	h1 {
 		margin: 0;
 	}
 }
@@ -55,7 +59,9 @@ h3, h4, h5, h6 {
 .main-content {
 	@include bp(ipadpro) {
 		min-height: 1055px;
-	}	
+	}
+
+	padding-bottom: 5em;
 }
 
 .body-content {
@@ -65,12 +71,12 @@ h3, h4, h5, h6 {
 		margin: 2rem 5rem 2rem;
 	}
 
-	h3 {
+	h2 {
 		width: 100%;
 		font-size: 2rem;
 	}
 
-	h4 {
+	h3 {
 		width: 100%;
 		font-size: 1.5rem;
 	}
@@ -96,57 +102,7 @@ h3, h4, h5, h6 {
 	}
 }
 
-.blue-bullets {
-	li {
-		display: block;
-		list-style: none; 
-		
-		/* Give the bullet room on the left hand side */
-		padding: 0;
-		position: relative;
-
-		&:before {
-			color: $blueAccent;  
-			/* color of bullet or square */
-			content: "\2022"; 
-			/* Unicode of character to precede the list item */
-			display: inline-block;
-			font-size: 1.5em; 
-			/* use em or % */ 
-			left: -.8em; 
-			/* use em, line up bullet flush with left hand side */
-			position: absolute;
-			/* Set the bullet positioned absolutely top left */
-			top: -.3em; 
-		}
-	}
-}
-
-.pink-bullets {
-	li {
-		display: block;
-		list-style: none; 
-		
-		/* Give the bullet room on the left hand side */
-		padding: 0;
-		position: relative;
-
-		&:before {
-			color: $coralAccent;  
-			/* color of bullet or square */
-			content: "\2022"; 
-			/* Unicode of character to precede the list item */
-			display: inline-block;
-			font-size: 1.5em; 
-			/* use em or % */ 
-			left: -.8em; 
-			/* use em, line up bullet flush with left hand side */
-			position: absolute;
-			/* Set the bullet positioned absolutely top left */
-			top: -.3em; 
-		}
-	}
-}
+// ----- Video styles -----
 
 .video-responsive{
     position: relative;
@@ -163,7 +119,23 @@ h3, h4, h5, h6 {
     height: 100%;
 }
 
-.about-pic {
+.couples-video {
+	@include bp(tablet) {
+		width: 50%;
+		float: right;
+	}
+}
+
+.parent-video {
+	@include bp(tablet) {
+		width: 50%;
+		float: left;
+	}
+}
+
+// ----- Images -----
+
+.body-content-pic {
 	width: 100%;
 	padding-bottom: 1rem;
 
@@ -173,6 +145,8 @@ h3, h4, h5, h6 {
 	}
 
 }
+
+// ----- About Lexi -----
 
 .about-lexi-pic {
 	width: 100%;
@@ -183,6 +157,8 @@ h3, h4, h5, h6 {
 		padding: 0 2rem 1rem 0;
 	}
 }
+
+// ----- Treatment Options -----
 
 .services-blurb {
 	margin-bottom: 3rem;
@@ -205,48 +181,21 @@ h3, h4, h5, h6 {
 	img {
 		width: auto;
 	}
-
 }
 
-.couples-video {
-	@include bp(tablet) {
-		width: 50%;
-		float: right;
-	}
-}
-
-.parent-video {
-	@include bp(tablet) {
-		width: 50%;
-		float: left;
-	}
-}
-
-.contact-content {
-	text-align: center;
-	margin: 35px 20px 75px;
-}
+// ----- Contact us -----
 
 .contact-social-media {
 	padding-top: 3em;
 }
 
-.contact-map {
-	padding: 1rem;
-	text-align: center;
-
-	iframe {
-		width: 100%;
-
-		@include bp(desktop) {
-			width: 80%;
-		}
-
-		@include bp(desktop) {
-			width: 60%;
-		}
-	}
+.LI-profile-badge .LI-footer a {
+	float: left;
+	position: relative;
+	z-index: 100;
 }
+
+// ----- Covid -----
 
 .covid-contact {
 	display: block;
@@ -266,6 +215,18 @@ h3, h4, h5, h6 {
 	}
 }
 
+// ----- Company Values -----
+
 .company-values-img {
 	max-width: 1000px;
+}
+
+// ----- Contact Blurb -----
+
+.contact-blurb {
+
+	.btn {
+		background-color: rgba(118,215,212,1);
+	}
+
 }

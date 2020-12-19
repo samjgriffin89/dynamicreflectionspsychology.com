@@ -35,13 +35,8 @@
 	}
 }
 
-
-.homepage-ctas {
-	margin-bottom: 3em;
-
-	.cta-button {
-		margin-top: 2em;
-	}
+.homepage-ctas .cta-button {
+	margin-top: 2em;
 }
 
 .why-psychotherapy-ctas .cta {
@@ -50,7 +45,7 @@
 
 	@include bp(tablet) {
 		margin: .5rem auto;
-		padding: 4rem 2rem;
+		padding: 2rem;
 	}
 }
 
@@ -78,6 +73,19 @@
 
 	.bottom-cta-border {
 		border-bottom: solid $tangerineAccent .3rem;
+	}
+
+	.header-link {
+		display: block;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		h3:hover {
+			color: #fff;
+			background: $tangerineAccent;
+		}
 	}
 }
 

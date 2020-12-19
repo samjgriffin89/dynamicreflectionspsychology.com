@@ -1,15 +1,25 @@
 <div class="sidebar">
-	<!-- <h4>Search</h4>
+	<h4>Search</h4>
 	<div class="posts-search">
-		<input type="text" placeholder="Search Posts" />
-		<button class="btn primary-btn">Submit</button>
+		<input id="search-input" type="text" placeholder="Search Posts" />
 		
-		<a class="clear-results" href="/posts">Clear Results</a>
-	</div> -->
+		<a class="clear-results" href="/blog">Reset</a>
+	</div>
 	<h4>About the Author</h4>
 	<div class="about--side">
-		<p>I am a full stack developer currently working at <a href="http://www.cardfree.com">CARDFREE</a> building out RESTful services that supports our mobile apps and customer portal. For the most part I am working in .NET using Web API, but am becoming more immersed in RoR and grails.</p>
-
-		<p>I am originally from Boston, but have been living in Colorado for some time now. In my spare time I try to keep pace with my energentic golden, hike and ski, and occassionally post something interesting.</p>
+		<h2>Dr. Julie Griffin</h2>
+		<h3>Licensed Clinical Psychologist</h3>
+		<p>I enjoy working with people who would like to understand themselves in a deeper way, heal wounds that may have been created by past or present relationships, and develop assertive communication to get their needs met more effectively.</p>
 	</div>
 </div>
+
+<script src="/javascript/simple-jekyll-search.min.js" type="text/javascript"></script>
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('posts'),
+  noResultsText: ("<p class='no-blog-results'>No result found.</p>"),
+  json: '/search.json',
+  searchResultTemplate: '<article class="post"><hgroup><div class="post-title"><h3><a href="{url}}">{title}</a></h3>{% if subtitle %}<h4>{subtitle}</h4>{% endif %}</div><h5>{date}</h5></hgroup><p class="post-abstract">{abstract}</p><a href="{url}">Read More</a></article>',
+})
+</script>

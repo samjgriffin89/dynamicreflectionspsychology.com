@@ -287,16 +287,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.blue-text {
-  color: #00a3e0; }
-
-.tangerine-text {
-  color: #ff6a39; }
-
-.coral-text {
-  color: #da1984; }
-
-.flex-display {
+.flex-display, .posts-wrapper, .post-wrapper {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -349,8 +340,54 @@ table {
 .triangle-right-coral {
   border-left: 16px solid #da1984; }
 
-.w-45 {
-  width: 45%; }
+.blue-text {
+  color: #00a3e0; }
+
+.tangerine-text {
+  color: #ff6a39; }
+
+.coral-text {
+  color: #da1984; }
+
+.blue-bullets li {
+  display: block;
+  list-style: none;
+  /* Give the bullet room on the left hand side */
+  padding: 0;
+  position: relative; }
+  .blue-bullets li:before {
+    color: #00a3e0;
+    /* color of bullet or square */
+    content: "\2022";
+    /* Unicode of character to precede the list item */
+    display: inline-block;
+    font-size: 1.5em;
+    /* use em or % */
+    left: -.8em;
+    /* use em, line up bullet flush with left hand side */
+    position: absolute;
+    /* Set the bullet positioned absolutely top left */
+    top: -.3em; }
+
+.pink-bullets li {
+  display: block;
+  list-style: none;
+  /* Give the bullet room on the left hand side */
+  padding: 0;
+  position: relative; }
+  .pink-bullets li:before {
+    color: #da1984;
+    /* color of bullet or square */
+    content: "\2022";
+    /* Unicode of character to precede the list item */
+    display: inline-block;
+    font-size: 1.5em;
+    /* use em or % */
+    left: -.8em;
+    /* use em, line up bullet flush with left hand side */
+    position: absolute;
+    /* Set the bullet positioned absolutely top left */
+    top: -.3em; }
 
 .main-content .error-page {
   padding-top: 75px;
@@ -421,6 +458,7 @@ table {
     text-decoration: underline; }
 
 .footer {
+  height: 10em;
   background: #00a3e0;
   background: linear-gradient(90deg, #00a3e0 0%, #00bfb2 35%, #76d7d4 100%);
   padding: 2rem 0 !important;
@@ -454,6 +492,8 @@ html, body {
   margin: 0;
   background: #fff;
   color: #000;
+  position: relative;
+  min-height: 100vh;
   font-family: 'Roboto', light; }
   html a, body a {
     color: #00a3e0; }
@@ -466,10 +506,10 @@ html, body {
   html p, html li, html a, html strong, body p, body li, body a, body strong {
     font-size: 1rem; }
 
-h1, h2 {
+h1 {
   font-family: 'ZCOOL XiaoWei'; }
 
-h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   font-family: 'bebas_neue_light';
   margin: 1rem 0; }
 
@@ -479,12 +519,13 @@ h3, h4, h5, h6 {
 .page-title-wrapper {
   padding: 30px 0 30px;
   text-align: center;
-  font-size: 3em; }
-  .page-title-wrapper h2 {
+  font-size: 2.25em; }
+  .page-title-wrapper h1 {
     margin: 0; }
 
 .main-content {
-  /* Portrait and Landscape */ }
+  /* Portrait and Landscape */
+  padding-bottom: 5em; }
   @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .main-content {
       min-height: 1055px; } }
@@ -494,10 +535,10 @@ h3, h4, h5, h6 {
   @media (min-width: 1200px) {
     .body-content {
       margin: 2rem 5rem 2rem; } }
-  .body-content h3 {
+  .body-content h2 {
     width: 100%;
     font-size: 2rem; }
-  .body-content h4 {
+  .body-content h3 {
     width: 100%;
     font-size: 1.5rem; }
   .body-content q {
@@ -514,46 +555,6 @@ h3, h4, h5, h6 {
     .body-content .publications a:hover {
       text-decoration: underline; }
 
-.blue-bullets li {
-  display: block;
-  list-style: none;
-  /* Give the bullet room on the left hand side */
-  padding: 0;
-  position: relative; }
-  .blue-bullets li:before {
-    color: #00a3e0;
-    /* color of bullet or square */
-    content: "\2022";
-    /* Unicode of character to precede the list item */
-    display: inline-block;
-    font-size: 1.5em;
-    /* use em or % */
-    left: -.8em;
-    /* use em, line up bullet flush with left hand side */
-    position: absolute;
-    /* Set the bullet positioned absolutely top left */
-    top: -.3em; }
-
-.pink-bullets li {
-  display: block;
-  list-style: none;
-  /* Give the bullet room on the left hand side */
-  padding: 0;
-  position: relative; }
-  .pink-bullets li:before {
-    color: #da1984;
-    /* color of bullet or square */
-    content: "\2022";
-    /* Unicode of character to precede the list item */
-    display: inline-block;
-    font-size: 1.5em;
-    /* use em or % */
-    left: -.8em;
-    /* use em, line up bullet flush with left hand side */
-    position: absolute;
-    /* Set the bullet positioned absolutely top left */
-    top: -.3em; }
-
 .video-responsive {
   position: relative;
   width: 100%;
@@ -567,11 +568,21 @@ h3, h4, h5, h6 {
   width: 100%;
   height: 100%; }
 
-.about-pic {
+@media (min-width: 768px) {
+  .couples-video {
+    width: 50%;
+    float: right; } }
+
+@media (min-width: 768px) {
+  .parent-video {
+    width: 50%;
+    float: left; } }
+
+.body-content-pic {
   width: 100%;
   padding-bottom: 1rem; }
   @media (min-width: 768px) {
-    .about-pic {
+    .body-content-pic {
       width: 35%;
       padding: 0 2rem 1rem 0; } }
 
@@ -596,34 +607,13 @@ h3, h4, h5, h6 {
 .services img {
   width: auto; }
 
-@media (min-width: 768px) {
-  .couples-video {
-    width: 50%;
-    float: right; } }
-
-@media (min-width: 768px) {
-  .parent-video {
-    width: 50%;
-    float: left; } }
-
-.contact-content {
-  text-align: center;
-  margin: 35px 20px 75px; }
-
 .contact-social-media {
   padding-top: 3em; }
 
-.contact-map {
-  padding: 1rem;
-  text-align: center; }
-  .contact-map iframe {
-    width: 100%; }
-    @media (min-width: 1200px) {
-      .contact-map iframe {
-        width: 80%; } }
-    @media (min-width: 1200px) {
-      .contact-map iframe {
-        width: 60%; } }
+.LI-profile-badge .LI-footer a {
+  float: left;
+  position: relative;
+  z-index: 100; }
 
 .covid-contact {
   display: block; }
@@ -640,10 +630,14 @@ h3, h4, h5, h6 {
 .company-values-img {
   max-width: 1000px; }
 
+.contact-blurb .btn {
+  background-color: #76d7d4; }
+
 .homepage-header {
   display: block;
   margin-top: 3rem;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  font-family: 'ZCOOL XiaoWei'; }
   @media (min-width: 1200px) {
     .homepage-header {
       font-size: 2.5rem; } }
@@ -731,10 +725,8 @@ h3, h4, h5, h6 {
     color: #000;
     text-align: left; }
 
-.homepage-ctas {
-  margin-bottom: 3em; }
-  .homepage-ctas .cta-button {
-    margin-top: 2em; }
+.homepage-ctas .cta-button {
+  margin-top: 2em; }
 
 .why-psychotherapy-ctas .cta {
   margin: 0;
@@ -742,7 +734,7 @@ h3, h4, h5, h6 {
   @media (min-width: 768px) {
     .why-psychotherapy-ctas .cta {
       margin: .5rem auto;
-      padding: 4rem 2rem; } }
+      padding: 2rem; } }
 
 .bottom-cta-border {
   position: relative;
@@ -759,6 +751,13 @@ h3, h4, h5, h6 {
   border-bottom: solid #ff6a39 0.3rem; }
 .tangerine-cta .bottom-cta-border {
   border-bottom: solid #ff6a39 0.3rem; }
+.tangerine-cta .header-link {
+  display: block; }
+  .tangerine-cta .header-link:hover {
+    text-decoration: none; }
+  .tangerine-cta .header-link h3:hover {
+    color: #fff;
+    background: #ff6a39; }
 
 .coral-cta h3 {
   color: #da1984;
@@ -798,5 +797,107 @@ h3, h4, h5, h6 {
     .coral-cta-button a:hover {
       color: #fff;
       background: #da1984; }
+
+.posts, .post-wrapper .post {
+  flex-basis: 100%;
+  border-right: 1px solid #eee; }
+  @media (min-width: 768px) {
+    .posts, .post-wrapper .post {
+      flex-basis: 70%; } }
+  .posts a, .post-wrapper .post a {
+    color: #005253; }
+  .posts img, .post-wrapper .post img {
+    width: auto;
+    max-width: 100%; }
+  .posts .center, .post-wrapper .post .center {
+    text-align: center; }
+
+.posts article + article {
+  border-top: 3px solid #005253; }
+
+.sidebar, .post {
+  padding: 3em; }
+
+.sidebar {
+  display: none; }
+  @media (min-width: 768px) {
+    .sidebar {
+      display: block;
+      flex-basis: 30%;
+      padding-left: 20px; } }
+  .sidebar > div {
+    margin-top: 1em; }
+  .sidebar h4 {
+    text-transform: uppercase;
+    margin: 0 0 1em; }
+  .sidebar .posts-search {
+    margin-bottom: 3em; }
+    .sidebar .posts-search input {
+      width: 85%;
+      line-height: 1.7;
+      margin-right: 10px; }
+    .sidebar .posts-search .clear-results {
+      font-size: 12px; }
+  .sidebar .about--side {
+    margin-right: 50px; }
+    .sidebar .about--side a {
+      color: #005253; }
+
+.no-blog-results {
+  width: 100%;
+  margin: 2em auto;
+  text-align: center;
+  font-size: 2em; }
+
+.post {
+  color: #475155;
+  width: 80%;
+  margin: 0 auto; }
+  .post hgroup {
+    overflow: hidden; }
+  .post h3, .post h4, .post h5 {
+    margin: 0; }
+  .post .post-title {
+    float: left;
+    width: 80%; }
+  .post h3 {
+    margin-bottom: 5px;
+    font-size: 1.75em; }
+  .post h5 {
+    float: right; }
+  .post code {
+    font-size: .9em; }
+  .post .tags {
+    display: inline-block; }
+
+.post--comments {
+  margin: 25px 0; }
+  .post--comments h5 {
+    float: none;
+    font-size: 20px; }
+  .post--comments .new_comment {
+    overflow: hidden; }
+    .post--comments .new_comment label {
+      width: 150px;
+      display: inline-block; }
+    .post--comments .new_comment input[type="text"] {
+      width: 50%; }
+    .post--comments .new_comment textarea {
+      width: 75%;
+      height: 100px; }
+    .post--comments .new_comment input[type="submit"] {
+      float: right; }
+
+.edit_post, .new_post {
+  width: 80%;
+  margin: 0 auto; }
+  .edit_post label, .new_post label {
+    width: 150px;
+    display: inline-block; }
+  .edit_post input[type="text"], .new_post input[type="text"] {
+    width: 50%; }
+  .edit_post textarea, .new_post textarea {
+    width: 75%;
+    height: 350px; }
 
 /*# sourceMappingURL=main.css.map */
