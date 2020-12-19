@@ -632,6 +632,8 @@ h2, h3, h4, h5, h6 {
 
 .contact-blurb .btn {
   background-color: #76d7d4; }
+  .contact-blurb .btn:hover {
+    border: 1px solid transparent; }
 
 .homepage-header {
   display: block;

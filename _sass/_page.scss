@@ -227,6 +227,10 @@ h2, h3, h4, h5, h6 {
 
 	.btn {
 		background-color: rgba(118,215,212,1);
+
+		&:hover {
+			border: 1px solid transparent;
+		}
 	}
 
 }
