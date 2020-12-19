@@ -63,6 +63,19 @@
 	.bottom-cta-border {
 		border-bottom: solid $blueAccent .3rem;
 	}
+
+	.header-link {
+		display: block;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		h3:hover {
+			color: #fff;
+			background: $blueAccent;
+		}
+	}
 }
 
 .tangerine-cta {
@@ -97,6 +110,19 @@
 
 	.bottom-cta-border {
 		border-bottom: solid $coralAccent .3rem;
+	}
+
+	.header-link {
+		display: block;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		h3:hover {
+			color: #fff;
+			background: $coralAccent;
+		}
 	}
 }
 

@@ -747,6 +747,13 @@ h2, h3, h4, h5, h6 {
   border-bottom: solid #00a3e0 0.3rem; }
 .blue-cta .bottom-cta-border {
   border-bottom: solid #00a3e0 0.3rem; }
+.blue-cta .header-link {
+  display: block; }
+  .blue-cta .header-link:hover {
+    text-decoration: none; }
+  .blue-cta .header-link h3:hover {
+    color: #fff;
+    background: #00a3e0; }
 
 .tangerine-cta h3 {
   color: #ff6a39;
@@ -766,6 +773,13 @@ h2, h3, h4, h5, h6 {
   border-bottom: solid #da1984 0.3rem; }
 .coral-cta .bottom-cta-border {
   border-bottom: solid #da1984 0.3rem; }
+.coral-cta .header-link {
+  display: block; }
+  .coral-cta .header-link:hover {
+    text-decoration: none; }
+  .coral-cta .header-link h3:hover {
+    color: #fff;
+    background: #da1984; }
 
 .cta-button {
   display: inline-block;
