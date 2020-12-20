@@ -42,6 +42,11 @@ h2, h3, h4, h5, h6 {
 	margin: 1rem 0;
 }
 
+ol {
+	position: relative;
+	left: 1rem;
+}
+
 .container-fluid {
 	padding: 0;
 }
@@ -79,6 +84,13 @@ h2, h3, h4, h5, h6 {
 	h3 {
 		width: 100%;
 		font-size: 1.5rem;
+	}
+
+	.h3-list {
+		h3 {
+			font-family: 'Roboto', light;
+			font-size: 1.2rem;
+		}
 	}
 
 	q {
