@@ -1,11 +1,15 @@
 ﻿.footer {
-    height: 10em;
+    height: 15em;
     background: rgb(0,163,224);
     background: linear-gradient(90deg, rgba(0,163,224,1) 0%, rgba(0,191,178,1) 35%, rgba(118,215,212,1) 100%);
     padding: 2rem 0 !important;
     color: #fff;
     text-align: center;
     flex-wrap: wrap;
+
+    @include bp(tablet) {
+        height: 10em;
+    }
 
     .footer-details {
         padding-right: 1rem;

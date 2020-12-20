@@ -63,11 +63,11 @@ ol {
 }
 
 .main-content {
+	padding-bottom: 5em;
+
 	@include bp(ipadpro) {
 		min-height: 1055px;
 	}
-
-	padding-bottom: 5em;
 }
 
 .body-content {
