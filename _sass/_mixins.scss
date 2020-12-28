@@ -1,4 +1,7 @@
 ﻿@mixin bp($point) {
+  @if $point == bigdesktop {
+    @media (min-width: 1690px) { @content; }
+  }
   @if $point == desktop {
     @media (min-width: 1200px) { @content; }
   }
