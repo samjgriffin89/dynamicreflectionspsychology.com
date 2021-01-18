@@ -20,7 +20,7 @@
         }
 
         @include bp(desktop) {
-            margin-top: .7rem;
+            margin-top: 0rem;
         }
     }
 
@@ -42,6 +42,27 @@
 
         &:hover {
             color: $primaryColor;
+        }
+    }
+
+    .social-icons {
+        margin-right: 3rem;
+        margin-bottom: 0;
+        list-style-type: none;
+
+        @include bp(desktop) {
+            margin-right: 0rem;
+        }
+
+        li {
+            display: inline-block;
+            margin: 0 .5rem;
+        }
+
+        a {
+            width: 20px;
+            font-size: 20px;
+            text-align: center;
         }
     }
 }
