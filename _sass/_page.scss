@@ -203,7 +203,11 @@ ol {
 		height: 8rem;
 		line-height: 7rem;
 		color: #fff !important;
-		font-size: 2rem;
+		font-size: 1.5rem;
+
+		@include bp(tablet) {
+			font-size: 2rem;
+		}
 	}
 
 	img {
