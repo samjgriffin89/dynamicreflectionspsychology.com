@@ -124,7 +124,7 @@ ol {
     padding-bottom: 56.25%;
 }
 
-.video-responsive iframe{
+.video-responsive iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -173,26 +173,57 @@ ol {
 
 // ----- Treatment Options -----
 
-.services-blurb {
-	margin-bottom: 3rem;
-}
-
 .services {
-	ul {
-	  list-style: none;
 
-	  li {
-	  	line-height: 2;
-	  	font-size: 1.5rem;
-	  }
+	.video-container {
+		margin: auto;
 	}
 
-	ul li:before {
-	  content: '✓';
+	.services-buttons {
+		margin-top: 3rem;
+
+		div + div {
+			margin-top: 3rem;
+		}
+
+		@include bp(ipadpro) {
+			div + div {
+				margin-top: 0;
+			}
+		}
+
+		@include bp(desktop) {
+			div + div {
+				margin-top: 0;
+			}
+		}
+	}
+
+	a {
+		height: 8rem;
+		line-height: 7rem;
+		color: #fff !important;
+		font-size: 2rem;
 	}
 
 	img {
 		width: auto;
+	}
+}
+
+.blue-button {
+	background-color: rgba(118,215,212,1);
+
+	&:hover {
+		background-color: $blueAccent;
+	}
+}
+
+.coral-button {
+	background-color: $coralAccent;
+
+	&:hover {
+		background-color: $tangerineAccent;
 	}
 }
 
