@@ -237,10 +237,10 @@ ol {
 	padding-top: 3em;
 }
 
-.LI-profile-badge .LI-footer a {
-	float: left;
+.LI-profile-badge iframe {
+	margin: 0 auto;
 	position: relative;
-	z-index: 100;
+	left: 60px;
 }
 
 // ----- Covid -----
