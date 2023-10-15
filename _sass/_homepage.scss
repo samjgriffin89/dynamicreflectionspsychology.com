@@ -47,12 +47,18 @@
 
 .homepage-about-content {
 	display: flex;
+	padding-top: 3rem;
+	margin-top: 0 !important;
+	margin-bottom: 2rem;
 	flex-wrap: wrap;
-	margin: 2rem 0 3rem 0;
 	text-align: center;
 
 	img {
 		width: 50%;
+	}
+
+	p {
+		padding: 0 1rem;
 	}
 
 	@include bp(tablet) {
@@ -62,8 +68,6 @@
 	}
 
 	@include bp(desktop) {
-		margin: 6rem 0;
-
 		h2, h3, p {
 			text-align: left;
 		}
