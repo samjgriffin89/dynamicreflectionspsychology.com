@@ -247,17 +247,17 @@ ol {
 
 // ----- Contact us -----
 
-.contact-social-media {
-	padding-top: 3em;
-	overflow: hidden;
+.contact-social-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin: .5rem auto;
+	padding: 1rem 2rem;
 
-	.col-xl-4 {
-		width: 33%;
+	.contact-social-media {
+		padding: 1rem 0;
 	}
 
-	div {
-		float: left;
-	}
 }
 
 .LI-profile-badge iframe {
