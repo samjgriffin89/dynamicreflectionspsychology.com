@@ -8,6 +8,8 @@ google_analytics_id: G-9BEWVYZN54
 google_site_verification: SQXqp7bP6yWrnkXTdfDyKPehNJ9EyaSaNg5Stmh5gsg
 google_maps_api_key: AIzaSyC4DHSne1itZ1-MkC6PMDZwWvxeHgFttQc
 
+canonical_base_url: https://www.dynamicreflectionspsychology.com
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
