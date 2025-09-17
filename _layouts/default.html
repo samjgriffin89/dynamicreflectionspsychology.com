@@ -1,5 +1,4 @@
 ---
-layout: compress
 ---
 
 {% include top.html %}
@@ -45,6 +44,69 @@ layout: compress
           navLink.classList.add('active');
           navLink.setAttribute('aria-current', 'page');
         }
+      }
+
+      // FAQ Accordion functionality - Working version with colors
+      console.log('FAQ accordion script loading...');
+      
+      function initAccordion() {
+        console.log('Initializing FAQ accordion...');
+        
+        var questions = document.querySelectorAll('.faq-question');
+        console.log('FAQ questions found:', questions.length);
+        
+        for (var i = 0; i < questions.length; i++) {
+          var question = questions[i];
+          
+          // Set arrow color based on section header
+          var arrow = question.querySelector('.faq-arrow');
+          if (arrow) {
+            var currentElement = question.parentElement;
+            while (currentElement) {
+              var prevElement = currentElement.previousElementSibling;
+              if (prevElement && prevElement.tagName === 'H2') {
+                if (prevElement.classList.contains('blue-text')) {
+                  arrow.classList.add('blue-arrow');
+                } else if (prevElement.classList.contains('tangerine-text')) {
+                  arrow.classList.add('tangerine-arrow');
+                } else if (prevElement.classList.contains('coral-text')) {
+                  arrow.classList.add('coral-arrow');
+                }
+                break;
+              }
+              currentElement = prevElement;
+            }
+          }
+          
+          // Add click handler
+          question.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            var target = this.getAttribute('data-target');
+            var answer = document.getElementById(target);
+            
+            if (answer) {
+              var isActive = this.classList.contains('active');
+              
+              if (isActive) {
+                this.classList.remove('active');
+                answer.classList.remove('active');
+              } else {
+                this.classList.add('active');
+                answer.classList.add('active');
+              }
+            }
+          });
+        }
+        
+        console.log('FAQ accordion setup complete');
+      }
+      
+      // Initialize
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initAccordion);
+      } else {
+        initAccordion();
       }
     </script>
   </body>
