@@ -42,8 +42,7 @@
 .faq-arrow {
 	font-size: 1.2rem;
 	font-weight: bold;
-	transition: transform 0.3s ease;
-	color: #666;
+	color: inherit;
 	transform: rotate(0deg);
 }
 
@@ -51,15 +50,27 @@
 	transform: rotate(90deg);
 }
 
+/* Arrow color classes */
+.faq-arrow.blue-arrow {
+	color: #00a3e0;
+}
+
+.faq-arrow.tangerine-arrow {
+	color: #ff6a39;
+}
+
+.faq-arrow.coral-arrow {
+	color: #da1984;
+}
+
 .faq-answer {
 	padding: 0 1.5rem;
 	max-height: 0;
 	overflow: hidden;
-	transition: max-height 0.3s ease-out, padding 0.3s ease-out;
 	background-color: #fff;
 
 	&.active {
-		max-height: 500px;
+		max-height: 1000px;
 		padding: 1rem 1.5rem;
 	}
 
