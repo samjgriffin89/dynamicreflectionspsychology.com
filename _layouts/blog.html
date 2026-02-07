@@ -3,8 +3,14 @@ layout: default
 ---
 
 <div class="page-title-wrapper">	
-	<h2 class="page-title">Bloggy Woggy</h2>
+	<h2 class="page-title">Resources</h2>
 </div>
 <section class="posts-wrapper">
-	{{ content }}
+	<ul>
+	{% for post in site.posts %}
+		<li>
+			<a href="{{ post.url }}">{{ post.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
 </section>
