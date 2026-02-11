@@ -298,13 +298,16 @@ ol {
 // ----- Contact Blurb -----
 
 .contact-blurb {
-
 	.btn {
 		background-color: rgba(118,215,212,1);
 
 		&:hover {
 			border: 1px solid transparent;
 		}
+	}
+
+	.contact-about {
+		padding: 1rem 3rem;
 	}
 
 }

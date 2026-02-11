@@ -13897,6 +13897,9 @@ ol {
 .contact-blurb .btn:hover {
   border: 1px solid transparent;
 }
+.contact-blurb .contact-about {
+  padding: 1rem 3rem;
+}
 
 .contact-button {
   margin: 2rem 0;
