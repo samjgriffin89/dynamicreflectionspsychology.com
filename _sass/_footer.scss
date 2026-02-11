@@ -1,4 +1,7 @@
-﻿.footer {
+﻿@use 'mixins' as m;
+@use 'variables' as *;
+
+.footer {
     height: 17em;
     background: rgb(0,163,224);
     background: linear-gradient(90deg, rgba(0,163,224,1) 0%, rgba(0,191,178,1) 35%, rgba(118,215,212,1) 100%);
@@ -7,11 +10,11 @@
     text-align: center;
     flex-wrap: wrap;
 
-    @include bp(tablet) {
+    @include m.bp(tablet) {
         height: 10em;
     }
 
-    @include bp(desktop) {
+    @include m.bp(desktop) {
         height: 12em;
     }
 
@@ -19,7 +22,7 @@
         padding-right: 1rem;
         margin-top: 0rem;
 
-        @include bp(desktop) {
+        @include m.bp(desktop) {
             margin-top: 1.2rem;
         }
     }
@@ -54,7 +57,7 @@
         margin-bottom: 0;
         list-style-type: none;
 
-        @include bp(desktop) {
+        @include m.bp(desktop) {
             margin-right: 0rem;
         }
 

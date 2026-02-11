@@ -1,12 +1,45 @@
-.posts-wrapper, .post-wrapper {
-	@extend .flex-display;
+@use 'mixins' as m;
+@use 'variables' as *;
+@use 'sass:color';
+
+.posts-wrapper {
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	li {
+		margin-bottom: 0;
+		border-bottom: 1px solid #e0e0e0;
+
+		&:last-child {
+			border-bottom: none;
+		}
+
+		a {
+			display: block;
+			padding: 1.5em 2em;
+			color: $primaryColor;
+			text-decoration: none;
+			font-size: 1.25em;
+			font-weight: 500;
+			transition: all 0.3s ease;
+
+			&:hover {
+				color: color.adjust($primaryColor, $lightness: 10%);
+				padding-left: 2.75em;
+				background-color: rgba($primaryColor, 0.02);
+			}
+		}
+	}
 }
 
 .posts, .post-wrapper .post {
 	flex-basis: 100%;
 	border-right: 1px solid #eee;
 
-    @include bp(tablet){
+    @include m.bp(tablet){
         flex-basis: 70%;
     }
 
@@ -35,7 +68,7 @@
 .sidebar {
     display: none;
     
-    @include bp(tablet){
+    @include m.bp(tablet){
         display: block;
         flex-basis: 30%;
 	    padding-left: 20px;
