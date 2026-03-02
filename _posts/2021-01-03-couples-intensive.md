@@ -2,6 +2,7 @@
 layout: post
 title:  "Couples Intensive"
 permalink: /couples-intensive/
+description: "Get the equivalent of six months of couples therapy in two focused days. Dr. Griffin's couples intensive uses the developmental model to help partners understand each other and reconnect."
 ---
 
 Relationships are complex. In addition to becoming aware of and working through your own emotions and beliefs, you now have to contend with another individual who is navigating a similar process, and take a look at how these two perspectives interact with one another. You may have set expectations about what a relationship "should" be like, fears about coming across painful aspects that remind you of previous relationships, or difficulty communicating your point of view in a way that your partner can hear. Even in the healthiest of relationships, two people's views do not always align, but this does not mean that you will not be able to have a satisfying relationship with the person you chose.
