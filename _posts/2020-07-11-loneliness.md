@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Overview of Loneliness"
+permalink: /loneliness/
+description: "Humans are wired for connection, and loneliness can affect your health and wellbeing. Learn why loneliness occurs and how therapy with Dr. Griffin can help you build more meaningful relationships."
 ---
 
 ![Longing for a pack.](/images/loneliness.jpg)

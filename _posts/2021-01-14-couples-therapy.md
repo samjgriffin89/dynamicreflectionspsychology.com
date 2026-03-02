@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Couples Therapy"
+permalink: /couples-therapy/
+description: "Dr. Griffin offers couples therapy using Emotionally Focused Therapy, the developmental model, and discernment counseling to help partners improve communication, rebuild trust, and deepen connection."
 ---
 
 [![Couples Therapy Video](https://img.youtube.com/vi/wb_cnk7Bm8k/0.jpg)](https://www.youtube.com/watch?v=wb_cnk7Bm8k)

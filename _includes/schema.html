@@ -1,0 +1,94 @@
+{% if page.url == '/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "{{ site.title }}",
+  "description": "{{ page.description | default: site.description }}",
+  "url": "{{ site.canonical_base_url }}",
+  "telephone": "{{ site.phone_number }}",
+  "email": "{{ site.email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "50 South Steele Street, Suite 950",
+    "addressLocality": "Denver",
+    "addressRegion": "CO",
+    "postalCode": "80209",
+    "addressCountry": "US"
+  },
+  "medicalSpecialty": "Psychiatry",
+  "hasMap": "https://maps.google.com/?q=50+South+Steele+Street,+Suite+950,+Denver,+CO+80209",
+  "sameAs": [
+    "https://www.facebook.com/DynamicReflectionsPsych",
+    "https://www.linkedin.com/in/julie-griffin-psyd-0a321950"
+  ]
+}
+</script>
+
+{% elsif page.url == '/about-julie/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dr. Julie Melowsky Griffin",
+  "jobTitle": "Licensed Clinical Psychologist",
+  "honorificPrefix": "Dr.",
+  "description": "Clinical psychologist specializing in couples intensives, psychodynamic therapy, discernment counseling, and canine-assisted therapy in Denver, CO.",
+  "worksFor": {
+    "@type": "MedicalBusiness",
+    "name": "Dynamic Reflections Psychology",
+    "url": "{{ site.canonical_base_url }}"
+  },
+  "url": "{{ site.canonical_base_url }}/about-julie",
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Denver"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/julie-griffin-psyd-0a321950"
+  ]
+}
+</script>
+
+{% elsif page.url == '/couples-intensive-faq/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is included in a couples intensive with Dr. Griffin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each couples intensive includes a consultation call to assess fit, personalized questionnaires to focus the work, two full customized days of therapy with undivided attention, psychoeducation on brain and relationship patterns, real-time coaching on coping and communication skills, a take-home resource binder, and a two-hour follow-up call approximately six weeks after the intensive."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does a couples intensive compare to traditional weekly therapy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A couples intensive condenses approximately six months of weekly therapy into two consecutive days. The uninterrupted format means no week-long gaps where old patterns re-emerge, more time to practice new skills, and deeper exploration of topics than a standard 50-minute session allows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the couples intensive customized for each couple?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dr. Griffin uses information from the initial consultation call and individual questionnaires completed beforehand to tailor the two days specifically to your relationship's needs. Scheduling is also flexible to work around busy schedules."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens after the couples intensive ends?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Couples leave with a binder of resources and activities to support continued practice at home. Approximately six weeks after the intensive, Dr. Griffin conducts a two-hour follow-up call to assess progress, answer questions, and discuss whether additional support would be beneficial."
+      }
+    }
+  ]
+}
+</script>
+{% endif %}

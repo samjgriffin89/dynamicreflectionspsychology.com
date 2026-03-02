@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Individual Therapy"
+permalink: /individual-therapy/
+description: "Individual therapy with Dr. Griffin offers a safe space to explore your past, understand your patterns, and build the self-awareness and coping skills needed to thrive in relationships and life."
 ---
 
 Therapy is a place where you can come to be seen and heard as you are. You deserve to be treated with kindness and compassion for whatever you are going through in life. You are not alone. With the guidance of a caring therapist you can learn to:

@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Overview of Depression"
+permalink: /depression/
+description: "Depression is more than sadness — it's exhausting, isolating, and hard to shake alone. Learn the symptoms and how Dr. Griffin helps you heal emotional wounds, build coping skills, and regain purpose."
 ---
 
 Depression might feel as if you are drowning in the middle of the ocean with no one in sight. You are desperately trying to keep your head above water while exhausting all your effort in the process, hoping for some sign of rescue/relief. Every drop of your will power goes to meeting your basic needs (air), and there is not much energy left over to put towards enjoyed activities (like swimming) or anything else for that matter. All you want to do is be able to stop kicking and rest (or die because that might seem easier). You may feel hopeless about changing the situation (your depression/chances for survival), desperate for help but ashamed to ask for it, or excruciatingly lonely with your thoughts and feelings. You may think something is wrong with you for why else would you have been left alone or feel this pain? You are likely blaming yourself and gripped by shame about your sense of worthlessness. It might be hard to cry out to signal to anyone who will listen because you are thinking to yourself, "why would they care about you? Why would they want to help you? Even if they wanted to, how could they? Nobody could understand what I am going through."
