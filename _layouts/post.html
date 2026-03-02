@@ -11,16 +11,19 @@ layout: default
 				<h4>{{ page.subtitle }}</h4>
 				{% endif %}
 			</div>
-			<h5>{{ page.date | date: "%B %e, %Y" }}</h5>
+			<!-- <h5>{{ page.date | date: "%B %e, %Y" }}</h5> -->
 		</hgroup>
 		<p>
 		{{ content }}
 		</p>	
 		<p>
-			<strong>Tags:</strong>
-			{{ page.tags }}
+			<strong>Ready to start your journey?</strong><br /><br />
+			<a href="/contact" class="contact-btn btn btn-primary">Contact Dr. Julie Griffin</a>
+			<br /><br />
+
+			<!-- <strong>Tags:</strong>
+			{{ page.tags }} -->
 		</p>
-		<a href="/posts">Back to Posts</a>
+		<a href="/resources">< Back to resources</a>
 	</article>
-	{% include sidebar.html %}
 </section>

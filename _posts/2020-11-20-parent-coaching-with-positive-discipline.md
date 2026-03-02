@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Parent Coaching with Postive Discipline"
+---
+
+One common issue couples face is how to parent their children. Each parent has their own set of expectations of how to raise their children based on factors such as past experiences, their own parents style, societal pressures, insecurities within themselves, etc. Whatever you believe, it is always helpful to communicate and get on the same page with your partner to give your children a consistent and predictable environment in which they can develop all the skills they will need when they become adults.
+
+Positive Discipline teaches young people from an early age to become responsible, respectful, and resourceful members of their communities. Based on the best-selling Positive Discipline parenting books by child psychologist Dr. Jane Nelsen, Positive Discipline teaches important social and life skills in a manner that is deeply respectful and encouraging for both children and parents. Recent research tells us that children are hardwired from birth to connect with others, and that children who feel a sense of connection to their community, family, and school are less likely to misbehave. Positive Discipline is based on the understanding that the key to positive parenting is not punishment, but mutual respect. To learn more, visit <a href="https://www.positivediscipline.com/" target="_blank">https://www.positivediscipline.com/</a>

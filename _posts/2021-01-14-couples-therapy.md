@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Couples Therapy"
+---
+
+[![Couples Therapy Video](https://img.youtube.com/vi/wb_cnk7Bm8k/0.jpg)](https://www.youtube.com/watch?v=wb_cnk7Bm8k)
+
+*Click image above to watch video on YouTube*
+
+Relationships are complex. In addition to becoming aware of and working through your own emotions and beliefs, you now have to contend with another individual who is navigating a similar process, and take a look at how these two perspectives interact with one another. You may have set expectations about what a relationship "should" be like, fears about coming across painful aspects that remind you of previous relationships, or difficulty communicating your point of view in a way that your partner can hear. Even in the healthiest of relationships, two people's views do not always align, but this does not mean that you will not be able to have a satisfying relationship with the person you chose.
+
+Couples therapy is a process through which you can better identify what you are experiencing within yourself, learn to communicate this in an effective way, and develop better listening and empathic skills alongside your partner. Each of you may feel more or less comfortable with the vulnerability that comes with doing this kind of work, but if you work at it the reward is feeling more connected with the person you love. The way you relate to other people is something you learned through years of practice when you were young. Typically, the habits you formed in your family of origin reflect how you behave with the people closest to you today. You may recognize aspects within yourself or your partner that you like, and those you dislike. What will help bring you together is learning to recognize how you influence one another, whether this cycle is keeping you stuck or helping you towards your goals, and working towards a new kind of experience. Dr. Griffin uses an integrative approach to couples therapy, with a focus on attachment, development, and empathy.
+
+## Couple's Intensive
+
+Some couples find that their momentum between weekly sessions gets interrupted by old habits, or that the time restrictions prevent important conversations from being completed within an hour. This alternative option involves two consecutive days of highly structured couple's therapy, specifically customized for the interested partners. Questionnaires completed prior will be used to focus the work in a way that can expedite the process of about six months of weekly couples therapy into a two day format. It uses the developmental model to identify where the couple is stuck, provides education to better understand why this occurs, and offers uninterrupted time to learn and practice new communication skills. Couples will also leave with a binder of resources to support continued practice at home for years to come, as well as a follow up visit two months after the intensive.
+
+## Emotion Focused Therapy
+
+Emotionally Focused Therapy (EFT) is a short-term form of therapy that focuses on adult relationships and attachment/bonding. The therapist and clients look at patterns in the relationship and take steps to create a more secure bond and develop more trust to move the relationship in a healthier, more positive direction.
+
+## Developmental Model of Couples Therapy
+
+The developmental model provides a framework within which to examine the attachment style of both individuals within a partnership. The therapist identifies where in early development each person may be stuck, helps each person to differentiate between their own internal experience and what is happening around them, and learn to articulate personal desires safely, even if these are different from one another. With new skills to communicate safely and effectively, you can work towards a common goal of increased connection and satisfaction in the relationship, and effectively navigate the challenges that inevitably arise.
+
+## Parent Coaching with Positive Discipline
+
+One common issue couples face is how to parent their children. Each parent has their own set of expectations of how to raise their children based on factors such as past experiences, their own parents' style, societal pressures, insecurities within themselves, etc. Whatever you believe, it is always helpful to communicate and get on the same page with your partner to give your children a consistent and predictable environment in which they can develop all the skills they will need when they become adults. Positive Discipline is a helpful guide for parents who are doing their best, but would like some additional support and skills to use when interacting with their children. [Click here for more information](/2020/11/20/parent-coaching-with-positive-discipline).
+
+## Discernment Counseling
+
+A type of brief couples therapy designed for couples who are uncertain about whether to continue or end their relationship. It is often used when one partner wants to end the relationship while the other hopes to preserve it. The aim of therapy is to help both partners consider all options before they make the decision to work on or terminate the relationship.
+
+This type of intervention is designed to provide at least one, and up to five sessions. Each individual is provided an opportunity to explore what they want and why in the process of deciding between three options: 1. Continue in the relationship as-is with no changes, 2. Break up/divorce, or 3. Commit to a minimum of 6 months of couples therapy. During each session, each person has a chance to provide an overview of the decision they are facing, have some individual time with the therapist to safely explore their goals, and then come together to decide whether or not to schedule the next appointment.
+
+---

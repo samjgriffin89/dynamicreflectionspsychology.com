@@ -1,4 +1,7 @@
-﻿// ----- Generic page definitions -----
+﻿@use 'mixins' as m;
+@use 'variables' as *;
+
+// ----- Generic page definitions -----
 
 html, body {
   height: 100%;
@@ -65,7 +68,7 @@ ol {
 .main-content {
 	background-color: #eeefef;
 
-	@include bp(ipadpro) {
+	@include m.bp(ipadpro) {
 		min-height: 1055px;
 	}
 }
@@ -87,7 +90,7 @@ ol {
 .body-content {
 	margin: 2rem 3rem 2rem;
 
-	@include bp(desktop) {
+	@include m.bp(desktop) {
 		margin: 2rem 5rem 2rem;
 	}
 
@@ -113,7 +116,7 @@ ol {
 		margin: 25px;
 		font-style: italic;
 
-		@include bp(desktop) {
+		@include m.bp(desktop) {
 			position: relative;
 			left: 25px;
 		}
@@ -147,14 +150,14 @@ ol {
 }
 
 .couples-video {
-	@include bp(tablet) {
+	@include m.bp(tablet) {
 		width: 50%;
 		float: right;
 	}
 }
 
 .parent-video {
-	@include bp(tablet) {
+	@include m.bp(tablet) {
 		width: 50%;
 		float: left;
 	}
@@ -166,7 +169,7 @@ ol {
 	width: 100%;
 	padding-bottom: 1rem;
 
-	@include bp(tablet) {
+	@include m.bp(tablet) {
 		width: 35%;
 		padding: 0 2rem 1rem 0;
 	}
@@ -179,7 +182,7 @@ ol {
 	width: 100%;
 	padding-bottom: 1rem;
 
-	@include bp(tablet) {
+	@include m.bp(tablet) {
 		width: 35%;
 		padding: 0 2rem 1rem 0;
 	}
@@ -200,13 +203,13 @@ ol {
 			margin-top: 3rem;
 		}
 
-		@include bp(ipadpro) {
+		@include m.bp(ipadpro) {
 			div + div {
 				margin-top: 0;
 			}
 		}
 
-		@include bp(desktop) {
+		@include m.bp(desktop) {
 			div + div {
 				margin-top: 0;
 			}
@@ -219,7 +222,7 @@ ol {
 		color: #fff !important;
 		font-size: 1.5rem;
 
-		@include bp(tablet) {
+		@include m.bp(tablet) {
 			font-size: 2rem;
 		}
 	}
@@ -295,13 +298,16 @@ ol {
 // ----- Contact Blurb -----
 
 .contact-blurb {
-
 	.btn {
 		background-color: rgba(118,215,212,1);
 
 		&:hover {
 			border: 1px solid transparent;
 		}
+	}
+
+	.contact-about {
+		padding: 1rem 3rem;
 	}
 
 }

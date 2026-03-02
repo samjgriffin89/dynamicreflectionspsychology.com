@@ -1,23 +1,26 @@
+@use 'mixins' as m;
+@use 'variables' as *;
+
 .ctas {
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
 
-	@include bp(desktop) {
+	@include m.bp(desktop) {
 		overflow: hidden;
 	}
 }
 
 .cta {
 	
-	@include bp(desktop) {
+	@include m.bp(desktop) {
 		float: left;
 	}
 
 	margin: .5rem auto;
 	padding: 1rem 2rem;
 
-	@include bp(desktop) {
+	@include m.bp(desktop) {
 		margin: .5rem auto;
 		padding: 3rem 2rem;
 	}
@@ -43,7 +46,7 @@
 	margin: 0;
 	padding: 1rem 0;
 
-	@include bp(tablet) {
+	@include m.bp(tablet) {
 		margin: .5rem auto;
 		padding: 2rem;
 	}
