@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Individual Therapy"
+permalink: /individual-therapy/
 ---
 
 Therapy is a place where you can come to be seen and heard as you are. You deserve to be treated with kindness and compassion for whatever you are going through in life. You are not alone. With the guidance of a caring therapist you can learn to:

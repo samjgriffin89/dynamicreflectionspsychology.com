@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Couples Therapy"
+permalink: /couples-therapy/
 ---
 
 [![Couples Therapy Video](https://img.youtube.com/vi/wb_cnk7Bm8k/0.jpg)](https://www.youtube.com/watch?v=wb_cnk7Bm8k)

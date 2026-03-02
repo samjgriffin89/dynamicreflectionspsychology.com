@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Parent Coaching with Postive Discipline"
+permalink: /parent-coaching/
 ---
 
 One common issue couples face is how to parent their children. Each parent has their own set of expectations of how to raise their children based on factors such as past experiences, their own parents style, societal pressures, insecurities within themselves, etc. Whatever you believe, it is always helpful to communicate and get on the same page with your partner to give your children a consistent and predictable environment in which they can develop all the skills they will need when they become adults.

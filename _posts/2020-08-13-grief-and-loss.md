@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Overview of Grief & Loss"
+permalink: /grief-and-loss/
 ---
 
 Imagine you just lost someone or something important to you (e.g., death of a loved one/pet, job loss, divorce/breakup, health-terminal diagnosis). You are very upset and sad about this and it is occupying your whole mind and body. Imagine this grief as a big ball, which is squashed into a small box. Inside the box there is a pain button. This pain button gets pressed every time you move because that ball is taking up almost all of the space and bouncing off all the sides of the box, inevitably causing more pain very often. Gradually, as time goes by the ball begins to get smaller. This grief is still there, but more time goes by before it hits that pain button because there is more space in the box now for other things. This ball typically begins to get smaller in the days/weeks/years after the loss, but it never completely disappears. You will likely be able to continue on with your life, but any time that pain button gets pressed (e.g. seeing a picture of your loved one or hearing their name spoken) your grief will return. The amount of pain does not decrease, but the amount of time between feeling it increases and the amount of time actually feeling it decreases. The pain you feel represents the love and value you have for whatever was lost.

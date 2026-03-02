@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Overview of Loneliness"
+permalink: /loneliness/
 ---
 
 ![Longing for a pack.](/images/loneliness.jpg)
