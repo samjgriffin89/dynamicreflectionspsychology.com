@@ -17,10 +17,6 @@ The developmental model provides a framework within which to examine the attachm
 
 ---
 
-For more information about what to expect and what you can get out of a couple's intensive, please go to my [Frequently Ask Questions](/couples-intensive-faq) page.
+For more information about what to expect and what you can get out of a couple's intensive, please go to my <a href="/couples-intensive-faq" style="text-decoration: underline;">Frequently Asked Questions</a> page.
 
 ---
-
-**Ready to start your journey?**  
-
-[Contact Dr. Julie Griffin today](/contact)

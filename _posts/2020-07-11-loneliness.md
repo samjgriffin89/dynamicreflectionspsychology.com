@@ -29,7 +29,3 @@ Click the button if you are ready to begin therapy and learn to recognize imperf
 Dr. Julie Griffin can help you explore how you came to feel lonely, what gets in the way of feeling connected with others, and what you can do to begin creating more meaningful relationships. Dr. Griffin also addresses learning to recognize symptoms along with their triggers, develop coping skills to regulate your body, understand how emotions influence behavior, process your experiences in a new way, reduce self-critical judgment, identify values, set healthy boundaries, engage in self-care and self-compassion, learn how your past experiences contribute to your lonliness, and make empowered decisions about pursuing meaningful goals.
 
 ---
-
-**Ready to start your journey?**  
-
-[Contact Dr. Julie Griffin today](/contact)

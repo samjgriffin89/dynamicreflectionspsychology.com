@@ -14213,6 +14213,10 @@ ol {
   border-top: 3px solid #005253;
 }
 
+.post-wrapper .post .contact-btn {
+  color: #fff;
+}
+
 .sidebar, .post {
   padding: 3em;
 }

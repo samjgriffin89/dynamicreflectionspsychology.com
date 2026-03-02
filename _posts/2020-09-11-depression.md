@@ -46,7 +46,3 @@ In your own experience, are you recognizing these symptoms within yourself or so
 Dr. Julie Griffin can help you by identifying where you are within your personal experience of depression. You may receive a recommendation to rule out any biological causes for depression (e.g., thyroid issues or medications). Dr. Griffin also addresses learning to recognize symptoms along with their triggers, develop coping skills to regulate your body, understand how emotions influence behavior, process your experiences in a new way, reduce self-critical judgment, identify values, set healthy boundaries, engage in self-care and self-compassion, learn how your past experiences may be contributing to your overall mood, and make empowered decisions about pursuing meaningful goals.
 
 ---
-
-**Ready to start your journey?**  
-
-[Contact Dr. Julie Griffin today](/contact)

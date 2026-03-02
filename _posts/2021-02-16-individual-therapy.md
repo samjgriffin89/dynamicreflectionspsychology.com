@@ -29,7 +29,3 @@ Dr. Griffin's approach to therapy is psychodynamic in nature, with a focus on se
 **Wikipedia definition of psychodynamics:** also known as psychodynamic psychology, in its broadest sense, is an approach to psychology that emphasizes systematic study of the psychological forces that underlie human behavior, feelings, and emotions and how they might relate to early experience.
 
 ---
-
-**Ready to start your journey?**  
-
-[Contact Dr. Julie Griffin today](/contact)

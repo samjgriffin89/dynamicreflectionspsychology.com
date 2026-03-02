@@ -42,7 +42,3 @@ In your own experience, are you recognizing these symptoms within yourself or so
 Dr. Julie Griffin addresses the loss by identifying where you are within your personal experience of grief and helping you move through the remaining stages. Dr. Griffin also addresses learning to recognize symptoms along with their triggers, develop coping skills to regulate your body, understand how emotions influence behavior, process your experiences in a new way, reduce self-critical judgment, identify values, set healthy boundaries, engage in self-care and self-compassion, learn how your grief shows up in your life, recognize how the loss may be related to painful experiences in the past, and make empowered decisions about pursuing meaningful goals.
 
 ---
-
-**Ready to start your journey?**  
-
-[Contact Dr. Julie Griffin today](/contact)

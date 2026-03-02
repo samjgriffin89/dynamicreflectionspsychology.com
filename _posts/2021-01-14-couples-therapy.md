@@ -25,7 +25,7 @@ The developmental model provides a framework within which to examine the attachm
 
 ## Parent Coaching with Positive Discipline
 
-One common issue couples face is how to parent their children. Each parent has their own set of expectations of how to raise their children based on factors such as past experiences, their own parents' style, societal pressures, insecurities within themselves, etc. Whatever you believe, it is always helpful to communicate and get on the same page with your partner to give your children a consistent and predictable environment in which they can develop all the skills they will need when they become adults. Positive Discipline is a helpful guide for parents who are doing their best, but would like some additional support and skills to use when interacting with their children. [Click here for more information](/parent-coaching).
+One common issue couples face is how to parent their children. Each parent has their own set of expectations of how to raise their children based on factors such as past experiences, their own parents' style, societal pressures, insecurities within themselves, etc. Whatever you believe, it is always helpful to communicate and get on the same page with your partner to give your children a consistent and predictable environment in which they can develop all the skills they will need when they become adults. Positive Discipline is a helpful guide for parents who are doing their best, but would like some additional support and skills to use when interacting with their children. [Click here for more information](/2020/11/20/parent-coaching-with-positive-discipline).
 
 ## Discernment Counseling
 
@@ -34,7 +34,3 @@ A type of brief couples therapy designed for couples who are uncertain about whe
 This type of intervention is designed to provide at least one, and up to five sessions. Each individual is provided an opportunity to explore what they want and why in the process of deciding between three options: 1. Continue in the relationship as-is with no changes, 2. Break up/divorce, or 3. Commit to a minimum of 6 months of couples therapy. During each session, each person has a chance to provide an overview of the decision they are facing, have some individual time with the therapist to safely explore their goals, and then come together to decide whether or not to schedule the next appointment.
 
 ---
-
-**Ready to start your journey?**  
-
-[Contact Dr. Julie Griffin today](/contact)
