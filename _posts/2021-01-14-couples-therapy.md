@@ -27,7 +27,7 @@ The developmental model provides a framework within which to examine the attachm
 
 ## Parent Coaching with Positive Discipline
 
-One common issue couples face is how to parent their children. Each parent has their own set of expectations of how to raise their children based on factors such as past experiences, their own parents' style, societal pressures, insecurities within themselves, etc. Whatever you believe, it is always helpful to communicate and get on the same page with your partner to give your children a consistent and predictable environment in which they can develop all the skills they will need when they become adults. Positive Discipline is a helpful guide for parents who are doing their best, but would like some additional support and skills to use when interacting with their children. [Click here for more information](/2020/11/20/parent-coaching-with-positive-discipline).
+One common issue couples face is how to parent their children. Each parent has their own set of expectations of how to raise their children based on factors such as past experiences, their own parents' style, societal pressures, insecurities within themselves, etc. Whatever you believe, it is always helpful to communicate and get on the same page with your partner to give your children a consistent and predictable environment in which they can develop all the skills they will need when they become adults. Positive Discipline is a helpful guide for parents who are doing their best, but would like some additional support and skills to use when interacting with their children. [Click here for more information](/parent-coaching/).
 
 ## Discernment Counseling
 
