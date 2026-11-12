@@ -67,9 +67,19 @@
         }
 
         a {
+            display: inline-block;
             width: 20px;
             font-size: 20px;
+            line-height: 1;
             text-align: center;
+        }
+
+        // Inline SVG icons; sized and aligned to match the former Font Awesome 4.7 glyphs.
+        svg {
+            width: auto;
+            height: 1em;
+            vertical-align: -0.143em;
+            fill: currentColor;
         }
     }
 }

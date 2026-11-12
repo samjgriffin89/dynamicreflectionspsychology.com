@@ -2,7 +2,8 @@
 
 @font-face {
     font-family: 'bebas_neue_light';
-    src: url('../fonts/BebasNeue-Light.otf'),
+    src: url('../fonts/BebasNeue-Light.woff2') format('woff2'),
+         url('../fonts/BebasNeue-Light.otf') format('opentype'),
          url('../fonts/BebasNeue-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
